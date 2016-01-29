@@ -1,0 +1,5 @@
+reason1: I want to make a a change to code, realised it was a mistake and want to revert back
+reason2:I want to see the difference between two (or more) versions of my code
+reason3:I want to review the history of some code
+reason4:I want to submit a change to someone else's code
+reason5:I Want to share your code, or let other people work on my code

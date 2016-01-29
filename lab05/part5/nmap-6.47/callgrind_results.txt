@@ -1,0 +1,3037 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out' (creator: callgrind-3.10.0.SVN)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 311419
+Trigger: Program termination
+Profiled target:  ./nmap (PID 22714, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       100
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+       Ir 
+--------------------------------------------------------------------------------
+1,667,775  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+     Ir  file:function
+--------------------------------------------------------------------------------
+529,830  /build/buildd/eglibc-2.19/elf/dl-lookup.c:_dl_lookup_symbol_x [/lib/x86_64-linux-gnu/ld-2.19.so]
+424,243  /build/buildd/eglibc-2.19/elf/dl-lookup.c:do_lookup_x [/lib/x86_64-linux-gnu/ld-2.19.so]
+163,959  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-machine.h:_dl_relocate_object
+127,635  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strcmp.S:strcmp'2 [/lib/x86_64-linux-gnu/ld-2.19.so]
+ 66,669  /build/buildd/eglibc-2.19/elf/dl-lookup.c:check_match.9458 [/lib/x86_64-linux-gnu/ld-2.19.so]
+ 57,424  /build/buildd/eglibc-2.19/elf/do-rel.h:_dl_relocate_object
+ 56,050  /build/buildd/eglibc-2.19/elf/dl-addr.c:_dl_addr [/lib/x86_64-linux-gnu/libc-2.19.so]
+ 24,410  nbase/nbase_rnd.c:nrand_init [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+ 22,584  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_overflow@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+ 17,521  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strcmp.S:strcmp [/lib/x86_64-linux-gnu/ld-2.19.so]
+ 13,467  /build/buildd/eglibc-2.19/elf/dl-misc.c:_dl_name_match_p [/lib/x86_64-linux-gnu/ld-2.19.so]
+ 10,239  /build/buildd/eglibc-2.19/libio/genops.c:_IO_default_xsputn [/lib/x86_64-linux-gnu/libc-2.19.so]
+  7,618  /build/buildd/eglibc-2.19/elf/../elf/dl-runtime.c:_dl_fixup [/lib/x86_64-linux-gnu/ld-2.19.so]
+  7,480  ???:std::locale::_Impl::_M_install_facet(std::locale::id const*, std::locale::facet const*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+  7,056  /build/buildd/eglibc-2.19/malloc/malloc.c:_int_malloc [/lib/x86_64-linux-gnu/libc-2.19.so]
+  7,040  /build/buildd/eglibc-2.19/wcsmbs/btowc.c:btowc [/lib/x86_64-linux-gnu/libc-2.19.so]
+  5,563  /build/buildd/eglibc-2.19/elf/dl-version.c:_dl_check_map_versions [/lib/x86_64-linux-gnu/ld-2.19.so]
+  5,484  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/rtld-memset.S:memset [/lib/x86_64-linux-gnu/ld-2.19.so]
+  4,288  /build/buildd/eglibc-2.19/elf/dl-version.c:match_symbol [/lib/x86_64-linux-gnu/ld-2.19.so]
+  4,007  /build/buildd/eglibc-2.19/elf/dl-cache.c:_dl_cache_libcmp [/lib/x86_64-linux-gnu/ld-2.19.so]
+  3,451  /build/buildd/eglibc-2.19/elf/dl-load.c:_dl_map_object_from_fd [/lib/x86_64-linux-gnu/ld-2.19.so]
+  3,267  /build/buildd/eglibc-2.19/elf/dl-deps.c:_dl_map_object_deps [/lib/x86_64-linux-gnu/ld-2.19.so]
+  3,171  ???:std::ctype<wchar_t>::_M_initialize_ctype() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+  2,976  /build/buildd/eglibc-2.19/elf/dl-load.c:_dl_map_object [/lib/x86_64-linux-gnu/ld-2.19.so]
+  2,944  /build/buildd/eglibc-2.19/malloc/malloc.c:_int_free [/lib/x86_64-linux-gnu/libc-2.19.so]
+  2,584  /build/buildd/eglibc-2.19/time/tzfile.c:__tzfile_read [/lib/x86_64-linux-gnu/libc-2.19.so]
+  2,471  /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__new_exitfn [/lib/x86_64-linux-gnu/libc-2.19.so]
+  2,432  /build/buildd/eglibc-2.19/wcsmbs/wctob.c:wctob [/lib/x86_64-linux-gnu/libc-2.19.so]
+  2,374  ???:std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+  2,160  ???:__dynamic_cast [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+  2,156  /build/buildd/eglibc-2.19/string/../string/memcmp.c:bcmp [/lib/x86_64-linux-gnu/ld-2.19.so]
+  2,036  /usr/include/c++/4.8/bits/stl_tree.h:reason_map_type::reason_map_type()
+  1,953  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve [/lib/x86_64-linux-gnu/ld-2.19.so]
+  1,925  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strchr.S:strchrnul [/lib/x86_64-linux-gnu/libc-2.19.so]
+  1,846  /build/buildd/eglibc-2.19/elf/get-dynamic-info.h:_dl_map_object_from_fd
+  1,817  /build/buildd/eglibc-2.19/malloc/malloc.c:malloc [/lib/x86_64-linux-gnu/libc-2.19.so]
+  1,701  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../rtld-strlen.S:strlen [/lib/x86_64-linux-gnu/ld-2.19.so]
+  1,696  /build/buildd/eglibc-2.19/stdlib/getenv.c:getenv [/lib/x86_64-linux-gnu/libc-2.19.so]
+  1,491  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../memcpy.S:memcpy [/lib/x86_64-linux-gnu/ld-2.19.so]
+  1,456  /build/buildd/eglibc-2.19/elf/dl-cache.c:_dl_load_cache_lookup [/lib/x86_64-linux-gnu/ld-2.19.so]
+  1,445  /build/buildd/eglibc-2.19/elf/dl-minimal.c:__libc_memalign [/lib/x86_64-linux-gnu/ld-2.19.so]
+  1,400  ???:__cxxabiv1::__si_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+  1,366  /build/buildd/eglibc-2.19/elf/dl-object.c:_dl_new_object [/lib/x86_64-linux-gnu/ld-2.19.so]
+  1,280  /usr/include/c++/4.8/bits/list.tcc:__tcf_0
+  1,232  /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit [/lib/x86_64-linux-gnu/libc-2.19.so]
+  1,214  /build/buildd/eglibc-2.19/elf/dl-load.c:open_verify.constprop.6 [/lib/x86_64-linux-gnu/ld-2.19.so]
+  1,187  /build/buildd/eglibc-2.19/stdlib/exit.c:__run_exit_handlers [/lib/x86_64-linux-gnu/libc-2.19.so]
+  1,170  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strlen.S:strlen [/lib/x86_64-linux-gnu/libc-2.19.so]
+  1,148  ???:std::ios_base::Init::Init() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+  1,099  /build/buildd/eglibc-2.19/elf/rtld.c:dl_main [/lib/x86_64-linux-gnu/ld-2.19.so]
+  1,035  /build/buildd/eglibc-2.19/elf/dl-reloc.c:_dl_relocate_object [/lib/x86_64-linux-gnu/ld-2.19.so]
+  1,024  /build/buildd/eglibc-2.19/wcsmbs/./wcsmbsload.h:btowc
+  1,014  /build/buildd/eglibc-2.19/elf/dl-minimal.c:strsep [/lib/x86_64-linux-gnu/ld-2.19.so]
+    936  ???:std::locale::_Impl::_Impl(unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    929  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strcmp.S:__GI_strcmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+    922  /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<reason_codes, std::pair<reason_codes const, reason_string>, std::_Select1st<std::pair<reason_codes const, reason_string> >, std::less<reason_codes>, std::allocator<std::pair<reason_codes const, reason_string> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<reason_codes const, reason_string> >, reason_codes const&) [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+    901  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../memcmp.S:__GI_memcmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+    876  /build/buildd/eglibc-2.19/wctype/wctype_l.c:wctype_l [/lib/x86_64-linux-gnu/libc-2.19.so]
+    842  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/memcpy.S:mempcpy [/lib/x86_64-linux-gnu/ld-2.19.so]
+    829  /build/buildd/eglibc-2.19/elf/dl-load.c:open_path [/lib/x86_64-linux-gnu/ld-2.19.so]
+    795  /build/buildd/eglibc-2.19/elf/dl-fini.c:_dl_sort_fini [/lib/x86_64-linux-gnu/ld-2.19.so]
+    793  /build/buildd/eglibc-2.19/malloc/malloc.c:malloc_consolidate [/lib/x86_64-linux-gnu/libc-2.19.so]
+    783  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_do_write@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+    774  /usr/include/c++/4.8/bits/stl_list.h:_GLOBAL__sub_I__Z14remove_and_ageR9host_elem
+    700  ???:std::locale::id::_M_id() const [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    640  /build/buildd/eglibc-2.19/iconv/gconv_simple.c:__gconv_btwoc_ascii [/lib/x86_64-linux-gnu/libc-2.19.so]
+    639  /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<reason_codes, std::pair<reason_codes const, reason_string>, std::_Select1st<std::pair<reason_codes const, reason_string> >, std::less<reason_codes>, std::allocator<std::pair<reason_codes const, reason_string> > >::_M_erase(std::_Rb_tree_node<std::pair<reason_codes const, reason_string> >*)'2 [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+    625  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strchr.S:index [/lib/x86_64-linux-gnu/ld-2.19.so]
+    612  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_write@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+    606  /build/buildd/eglibc-2.19/malloc/malloc.c:free [/lib/x86_64-linux-gnu/libc-2.19.so]
+    600  /build/buildd/eglibc-2.19/elf/dl-error.c:_dl_catch_error [/lib/x86_64-linux-gnu/ld-2.19.so]
+    596  ???:operator new(unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    587  /build/buildd/eglibc-2.19/time/../sysdeps/x86/bits/byteswap.h:__tzfile_read
+    540  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/memcpy.S:__GI_mempcpy [/lib/x86_64-linux-gnu/libc-2.19.so]
+    536  nmap_dns.cc:_GLOBAL__sub_I__Z14remove_and_ageR9host_elem [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+    523  nmap_dns.cc:__tcf_0 [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+    512  /build/buildd/eglibc-2.19/elf/dl-profstub.c:_dl_mcount_wrapper_check [/lib/x86_64-linux-gnu/libc-2.19.so]
+    500  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_xsputn@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+    499  /build/buildd/eglibc-2.19/time/tzset.c:__tzstring [/lib/x86_64-linux-gnu/libc-2.19.so]
+    489  /build/buildd/eglibc-2.19/elf/dl-fini.c:_dl_fini [/lib/x86_64-linux-gnu/ld-2.19.so]
+    486  /build/buildd/eglibc-2.19/stdio-common/vfprintf.c:vfprintf [/lib/x86_64-linux-gnu/libc-2.19.so]
+    485  /usr/include/c++/4.8/ext/new_allocator.h:reason_map_type::reason_map_type()
+    480  ???:std::ios_base::ios_base() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    476  ???:__cxxabiv1::__vmi_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    467  /build/buildd/eglibc-2.19/elf/../elf/dl-sysdep.c:_dl_sysdep_start [/lib/x86_64-linux-gnu/ld-2.19.so]
+    466  ???:0x00000000000749e0 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    462  ???:std::locale::locale() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    462  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../memcpy.S:__GI_memcpy [/lib/x86_64-linux-gnu/libc-2.19.so]
+    453  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../cacheinfo.c:intel_check_word [/lib/x86_64-linux-gnu/libc-2.19.so]
+    453  /build/buildd/eglibc-2.19/malloc/arena.c:ptmalloc_init.part.7 [/lib/x86_64-linux-gnu/libc-2.19.so]
+    452  /build/buildd/eglibc-2.19/elf/dl-init.c:call_init.part.0 [/lib/x86_64-linux-gnu/ld-2.19.so]
+    428  /build/buildd/eglibc-2.19/elf/dl-environ.c:_dl_next_ld_env_entry [/lib/x86_64-linux-gnu/ld-2.19.so]
+    413  ???:std::numpunct<char>::_M_initialize_numpunct(__locale_struct*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    388  ???:std::ios_base::Init::~Init() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    360  /build/buildd/eglibc-2.19/stdlib/cxa_finalize.c:__cxa_finalize [/lib/x86_64-linux-gnu/libc-2.19.so]
+    350  /build/buildd/eglibc-2.19/string/../bits/stdlib-bsearch.h:intel_check_word
+    349  ???:std::numpunct<wchar_t>::_M_initialize_numpunct(__locale_struct*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    341  /build/buildd/eglibc-2.19/elf/dl-load.c:_dl_init_paths [/lib/x86_64-linux-gnu/ld-2.19.so]
+    334  /build/buildd/eglibc-2.19/elf/dl-tls.c:_dl_allocate_tls_storage [/lib/x86_64-linux-gnu/ld-2.19.so]
+    306  /build/buildd/eglibc-2.19/elf/dl-object.c:_dl_add_to_namespace_list [/lib/x86_64-linux-gnu/ld-2.19.so]
+    303  /build/buildd/eglibc-2.19/setjmp/../sysdeps/x86_64/setjmp.S:__sigsetjmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+    286  ???:__libc_csu_init [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+    265  /build/buildd/eglibc-2.19/elf/get-dynamic-info.h:dl_main
+    264  /build/buildd/eglibc-2.19/elf/dl-hwcaps.c:_dl_important_hwcaps [/lib/x86_64-linux-gnu/ld-2.19.so]
+    254  /build/buildd/eglibc-2.19/elf/get-dynamic-info.h:_dl_start
+    238  /build/buildd/eglibc-2.19/elf/dl-deps.c:openaux [/lib/x86_64-linux-gnu/ld-2.19.so]
+    225  /build/buildd/eglibc-2.19/time/offtime.c:__offtime [/lib/x86_64-linux-gnu/libc-2.19.so]
+    225  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-machine.h:_dl_start
+    215  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_xsgetn [/lib/x86_64-linux-gnu/libc-2.19.so]
+    200  /build/buildd/eglibc-2.19/elf/dl-lookup.c:_dl_setup_hash [/lib/x86_64-linux-gnu/ld-2.19.so]
+    192  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strcmp.S:__strcmp_ssse3 [/lib/x86_64-linux-gnu/libc-2.19.so]
+    192  ???:0x0000000000070d40 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    189  /build/buildd/eglibc-2.19/elf/dl-load.c:open_verify [/lib/x86_64-linux-gnu/ld-2.19.so]
+    180  /build/buildd/eglibc-2.19/libio/iofflush.c:fflush [/lib/x86_64-linux-gnu/libc-2.19.so]
+    176  ???:std::ios_base::_M_init() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    176  /build/buildd/eglibc-2.19/elf/dl-minimal.c:malloc [/lib/x86_64-linux-gnu/ld-2.19.so]
+    171  /build/buildd/eglibc-2.19/elf/dl-minimal.c:calloc [/lib/x86_64-linux-gnu/ld-2.19.so]
+    168  ???:std::basic_ios<wchar_t, std::char_traits<wchar_t> >::_M_cache_locale(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    168  ???:std::basic_ios<char, std::char_traits<char> >::_M_cache_locale(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    166  ???:std::ctype<char>::ctype(unsigned short const*, bool, unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    165  /build/buildd/eglibc-2.19/elf/rtld.c:_dl_start [/lib/x86_64-linux-gnu/ld-2.19.so]
+    165  NmapOps.cc:NmapOps::Initialize() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+    161  /build/buildd/eglibc-2.19/elf/dl-load.c:fillin_rpath [/lib/x86_64-linux-gnu/ld-2.19.so]
+    159  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strcpy.S:__GI_strcpy [/lib/x86_64-linux-gnu/libc-2.19.so]
+    152  ???:operator delete(void*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    151  /build/buildd/eglibc-2.19/elf/do-rel.h:_dl_start
+    144  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../cacheinfo.c:init_cacheinfo [/lib/x86_64-linux-gnu/libc-2.19.so]
+    144  /build/buildd/eglibc-2.19/elf/dl-misc.c:_dl_higher_prime_number [/lib/x86_64-linux-gnu/ld-2.19.so]
+    142  ???:std::ctype<wchar_t>::_M_convert_to_wmask(unsigned short) const [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    140  /build/buildd/eglibc-2.19/time/tzfile.c:__tzfile_compute [/lib/x86_64-linux-gnu/libc-2.19.so]
+    138  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/syscall-template.S:mmap [/lib/x86_64-linux-gnu/libc-2.19.so]
+    136  ???:std::locale::operator=(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    135  /build/buildd/eglibc-2.19/elf/dl-init.c:_dl_init [/lib/x86_64-linux-gnu/ld-2.19.so]
+    131  /build/buildd/eglibc-2.19/elf/dl-version.c:_dl_check_all_versions [/lib/x86_64-linux-gnu/ld-2.19.so]
+    129  /build/buildd/eglibc-2.19/elf/dl-tls.c:_dl_allocate_tls_init [/lib/x86_64-linux-gnu/ld-2.19.so]
+    128  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_seekoff@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+    128  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/memset.S:memset [/lib/x86_64-linux-gnu/libc-2.19.so]
+    121  /build/buildd/eglibc-2.19/time/../libio/bits/stdio.h:__tzfile_read
+    118  /build/buildd/eglibc-2.19/elf/rtld.c:rtld_lock_default_lock_recursive [/lib/x86_64-linux-gnu/ld-2.19.so]
+    118  /build/buildd/eglibc-2.19/elf/rtld.c:rtld_lock_default_unlock_recursive [/lib/x86_64-linux-gnu/ld-2.19.so]
+    112  ???:std::moneypunct<char, false>::_M_initialize_moneypunct(__locale_struct*, char const*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    112  ???:std::moneypunct<char, true>::_M_initialize_moneypunct(__locale_struct*, char const*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    111  /usr/include/c++/4.8/bits/stl_pair.h:reason_map_type::reason_map_type()
+    110  /build/buildd/eglibc-2.19/libio/iofread_u.c:fread_unlocked [/lib/x86_64-linux-gnu/libc-2.19.so]
+    109  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:open [/lib/x86_64-linux-gnu/libc-2.19.so]
+    108  ???:std::moneypunct<wchar_t, true>::_M_initialize_moneypunct(__locale_struct*, char const*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    108  ???:std::moneypunct<wchar_t, false>::_M_initialize_moneypunct(__locale_struct*, char const*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    108  ???:std::__timepunct<char>::_M_initialize_timepunct(__locale_struct*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    107  /build/buildd/eglibc-2.19/elf/dl-tls.c:_dl_determine_tlsoffset [/lib/x86_64-linux-gnu/ld-2.19.so]
+    106  ???:std::__timepunct<wchar_t>::_M_initialize_timepunct(__locale_struct*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    104  ???:std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+    103  /usr/include/c++/4.8/ext/new_allocator.h:std::_Rb_tree<reason_codes, std::pair<reason_codes const, reason_string>, std::_Select1st<std::pair<reason_codes const, reason_string> >, std::less<reason_codes>, std::allocator<std::pair<reason_codes const, reason_string> > >::_M_erase(std::_Rb_tree_node<std::pair<reason_codes const, reason_string> >*)'2
+    101  /build/buildd/eglibc-2.19/libio/genops.c:_IO_cleanup [/lib/x86_64-linux-gnu/libc-2.19.so]
+    100  /build/buildd/eglibc-2.19/io/../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c:_fxstat [/lib/x86_64-linux-gnu/libc-2.19.so]
+    100  ???:std::basic_ios<wchar_t, std::char_traits<wchar_t> >::init(std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     99  /build/buildd/eglibc-2.19/elf/rtld.c:init_tls [/lib/x86_64-linux-gnu/ld-2.19.so]
+     98  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../cacheinfo.c:handle_intel [/lib/x86_64-linux-gnu/libc-2.19.so]
+     97  nbase/nbase_rnd.c:get_random_bytes [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     96  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_fopen@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+     96  ???:bool std::has_facet<std::ctype<char> >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     96  ???:std::locale::~locale() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     93  /build/buildd/eglibc-2.19/csu/../sysdeps/x86_64/multiarch/init-arch.c:__init_cpu_features [/lib/x86_64-linux-gnu/libc-2.19.so]
+     93  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-machine.h:_dl_fixup
+     93  /build/buildd/eglibc-2.19/libio/genops.c:_IO_link_in [/lib/x86_64-linux-gnu/libc-2.19.so]
+     92  ???:bool std::has_facet<std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > > >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     92  ???:bool std::has_facet<std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > > >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     92  ???:bool std::has_facet<std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     92  ???:bool std::has_facet<std::ctype<wchar_t> >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     92  ???:std::locale::facet::_S_get_c_locale() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     92  ???:bool std::has_facet<std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     91  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_sync@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+     89  /build/buildd/eglibc-2.19/libio/filedoalloc.c:_IO_file_doallocate [/lib/x86_64-linux-gnu/libc-2.19.so]
+     89  ???:__cpu_indicator_init [/lib/x86_64-linux-gnu/libgcc_s.so.1]
+     88  /build/buildd/eglibc-2.19/time/../sysdeps/generic/dl-hash.h:gettimeofday
+     88  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-sysdep.c:_dl_discover_osversion [/lib/x86_64-linux-gnu/ld-2.19.so]
+     88  /build/buildd/eglibc-2.19/libio/genops.c:_IO_flush_all_lockp [/lib/x86_64-linux-gnu/libc-2.19.so]
+     88  portreasons.cc:reason_map_type::reason_map_type() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     88  /build/buildd/eglibc-2.19/time/../sysdeps/generic/dl-hash.h:time
+     85  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:__write_nocancel [/lib/x86_64-linux-gnu/libc-2.19.so]
+     84  ???:std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > const& std::use_facet<std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     84  ???:std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > > const& std::use_facet<std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > > >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     84  ???:std::ctype<wchar_t> const& std::use_facet<std::ctype<wchar_t> >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     84  ???:std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > > const& std::use_facet<std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > > >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     84  ???:std::ctype<char> const& std::use_facet<std::ctype<char> >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     84  ???:std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > const& std::use_facet<std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > >(std::locale const&) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     82  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_underflow@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+     78  /build/buildd/eglibc-2.19/malloc/malloc.c:calloc [/lib/x86_64-linux-gnu/libc-2.19.so]
+     76  /build/buildd/eglibc-2.19/libio/genops.c:_IO_setb [/lib/x86_64-linux-gnu/libc-2.19.so]
+     75  /build/buildd/eglibc-2.19/libio/genops.c:_IO_un_link [/lib/x86_64-linux-gnu/libc-2.19.so]
+     75  ???:0x0000000000002ab0 [/lib/x86_64-linux-gnu/libgcc_s.so.1]
+     73  ???:0x000000000005b770 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     73  /build/buildd/eglibc-2.19/elf/dl-debug.c:_dl_debug_initialize [/lib/x86_64-linux-gnu/ld-2.19.so]
+     72  /usr/include/c++/4.8/bits/stl_map.h:reason_map_type::reason_map_type()
+     70  /build/buildd/eglibc-2.19/csu/../sysdeps/x86_64/multiarch/init-arch.c:__get_cpu_features [/lib/x86_64-linux-gnu/libc-2.19.so]
+     66  /build/buildd/eglibc-2.19/libio/libioP.h:fflush
+     65  /build/buildd/eglibc-2.19/nptl/../nptl/sysdeps/unix/sysv/linux/unregister-atfork.c:__unregister_atfork [/lib/x86_64-linux-gnu/libc-2.19.so]
+     65  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/syscall-template.S:mprotect [/lib/x86_64-linux-gnu/ld-2.19.so]
+     63  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:access [/lib/x86_64-linux-gnu/ld-2.19.so]
+     61  nmap_ftp.cc:get_default_ftpinfo() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     60  /build/buildd/eglibc-2.19/elf/dl-load.c:expand_dynamic_string_token [/lib/x86_64-linux-gnu/ld-2.19.so]
+     60  /build/buildd/eglibc-2.19/elf/dl-open.c:_dl_find_dso_for_object [/lib/x86_64-linux-gnu/ld-2.19.so]
+     58  /build/buildd/eglibc-2.19/csu/libc-start.c:(below main) [/lib/x86_64-linux-gnu/libc-2.19.so]
+     57  /build/buildd/eglibc-2.19/time/tzset.c:__tz_convert [/lib/x86_64-linux-gnu/libc-2.19.so]
+     55  /build/buildd/eglibc-2.19/debug/printf_chk.c:__printf_chk [/lib/x86_64-linux-gnu/libc-2.19.so]
+     55  NmapOps.cc:NmapOps::~NmapOps() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     54  ???:0x000000000005ba00 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     51  /build/buildd/eglibc-2.19/libio/genops.c:__underflow [/lib/x86_64-linux-gnu/libc-2.19.so]
+     50  nmap.cc:nmap_main(int, char**) [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     49  ???:0x000000000005b880 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     49  /build/buildd/eglibc-2.19/libio/iofclose.c:fclose@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+     49  ???:0x000000000005b940 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     49  /build/buildd/eglibc-2.19/io/../sysdeps/unix/sysv/linux/wordsize-64/xstat.c:_xstat [/lib/x86_64-linux-gnu/ld-2.19.so]
+     48  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_close_it@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+     48  /build/buildd/eglibc-2.19/string/../string/strstr.c:__GI_strstr [/lib/x86_64-linux-gnu/libc-2.19.so]
+     46  /build/buildd/eglibc-2.19/misc/sbrk.c:sbrk [/lib/x86_64-linux-gnu/libc-2.19.so]
+     44  /build/buildd/eglibc-2.19/csu/../sysdeps/generic/dl-hash.h:_init
+     43  /build/buildd/eglibc-2.19/time/tzset.c:tzset_internal [/lib/x86_64-linux-gnu/libc-2.19.so]
+     42  ???:std::basic_ostream<wchar_t, std::char_traits<wchar_t> >::flush() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     42  /build/buildd/eglibc-2.19/locale/uselocale.c:uselocale [/lib/x86_64-linux-gnu/libc-2.19.so]
+     42  ???:std::ostream::flush() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     42  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-vdso.c:_dl_vdso_vsym [/lib/x86_64-linux-gnu/libc-2.19.so]
+     41  ???:std::future_category() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     41  /build/buildd/eglibc-2.19/malloc/malloc.c:malloc'2 [/lib/x86_64-linux-gnu/libc-2.19.so]
+     41  /build/buildd/eglibc-2.19/elf/dl-misc.c:_dl_sysdep_read_whole_file [/lib/x86_64-linux-gnu/ld-2.19.so]
+     40  /build/buildd/eglibc-2.19/libio/genops.c:_IO_switch_to_get_mode [/lib/x86_64-linux-gnu/libc-2.19.so]
+     40  ???:0x0000000000002bc0 [/lib/x86_64-linux-gnu/libgcc_s.so.1]
+     40  /build/buildd/eglibc-2.19/locale/newlocale.c:newlocale [/lib/x86_64-linux-gnu/libc-2.19.so]
+     40  /build/buildd/eglibc-2.19/elf/dl-tls.c:_dl_add_to_slotinfo [/lib/x86_64-linux-gnu/ld-2.19.so]
+     40  /build/buildd/eglibc-2.19/libio/iofopen.c:__fopen_internal [/lib/x86_64-linux-gnu/libc-2.19.so]
+     38  /build/buildd/eglibc-2.19/libio/genops.c:_IO_default_setbuf [/lib/x86_64-linux-gnu/libc-2.19.so]
+     38  /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<reason_codes, std::pair<reason_codes const, reason_string>, std::_Select1st<std::pair<reason_codes const, reason_string> >, std::less<reason_codes>, std::allocator<std::pair<reason_codes const, reason_string> > >::_M_erase(std::_Rb_tree_node<std::pair<reason_codes const, reason_string> >*) [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     38  /usr/include/x86_64-linux-gnu/bits/string3.h:NmapOps::Initialize()
+     37  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:close [/lib/x86_64-linux-gnu/libc-2.19.so]
+     36  /build/buildd/eglibc-2.19/libio/genops.c:_IO_doallocbuf [/lib/x86_64-linux-gnu/libc-2.19.so]
+     34  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:write [/lib/x86_64-linux-gnu/libc-2.19.so]
+     34  /build/buildd/eglibc-2.19/time/../sysdeps/unix/sysv/linux/x86_64/gettimeofday.c:gettimeofday [/lib/x86_64-linux-gnu/libc-2.19.so]
+     34  /build/buildd/eglibc-2.19/time/../sysdeps/unix/sysv/linux/x86_64/time.c:time [/lib/x86_64-linux-gnu/libc-2.19.so]
+     33  /build/buildd/eglibc-2.19/libio/genops.c:_IO_no_init [/lib/x86_64-linux-gnu/libc-2.19.so]
+     32  /build/buildd/eglibc-2.19/csu/../csu/init-first.c:_init [/lib/x86_64-linux-gnu/libc-2.19.so]
+     32  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:read [/lib/x86_64-linux-gnu/libc-2.19.so]
+     32  /build/buildd/eglibc-2.19/elf/rtld.c:_dl_initial_error_catch_tsd [/lib/x86_64-linux-gnu/ld-2.19.so]
+     31  /build/buildd/eglibc-2.19/libio/ioseekoff.c:_IO_seekoff_unlocked [/lib/x86_64-linux-gnu/libc-2.19.so]
+     28  ???:std::__timepunct<wchar_t>::__timepunct(std::__timepunct_cache<wchar_t>*, unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     28  /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<std::string, std::pair<std::string const, std::string>, std::_Select1st<std::pair<std::string const, std::string> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, std::string> >*) [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     28  ???:std::__timepunct<char>::__timepunct(std::__timepunct_cache<char>*, unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     28  /build/buildd/eglibc-2.19/elf/rtld.c:do_preload [/lib/x86_64-linux-gnu/ld-2.19.so]
+     28  /build/buildd/eglibc-2.19/elf/dl-error.c:_dl_receive_error [/lib/x86_64-linux-gnu/ld-2.19.so]
+     27  /build/buildd/eglibc-2.19/csu/../sysdeps/unix/sysv/linux/x86_64/init-first.c:_init
+     26  ???:0x000000000005bc30 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     26  ???:__cxa_guard_acquire [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     26  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/sysv/linux/x86_64/brk.c:brk [/lib/x86_64-linux-gnu/libc-2.19.so]
+     25  /build/buildd/eglibc-2.19/libio/genops.c:_IO_old_init [/lib/x86_64-linux-gnu/libc-2.19.so]
+     25  ???:std::ctype<wchar_t>::ctype(unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     24  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strrchr.S:rindex [/lib/x86_64-linux-gnu/libc-2.19.so]
+     24  main.cc:main [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     24  /build/buildd/eglibc-2.19/misc/init-misc.c:__init_misc [/lib/x86_64-linux-gnu/libc-2.19.so]
+     22  /build/buildd/eglibc-2.19/string/strdup.c:strdup [/lib/x86_64-linux-gnu/libc-2.19.so]
+     21  ???:std::messages<wchar_t>::messages(unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     21  /build/buildd/eglibc-2.19/libio/fseek.c:fseek [/lib/x86_64-linux-gnu/libc-2.19.so]
+     21  ???:std::messages<char>::messages(unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     19  ???:0x00000000000012d0 [/lib/x86_64-linux-gnu/ld-2.19.so]
+     19  /build/buildd/eglibc-2.19/libio/ftello.c:ftello [/lib/x86_64-linux-gnu/libc-2.19.so]
+     19  nmap.cc:_GLOBAL__sub_I__Z16set_program_namePKc [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     18  ???:std::codecvt<char, char, __mbstate_t>::codecvt(unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     18  /build/buildd/eglibc-2.19/posix/../nptl/sysdeps/unix/sysv/linux/getpid.c:getpid [/lib/x86_64-linux-gnu/libc-2.19.so]
+     18  /build/buildd/eglibc-2.19/libio/genops.c:_IO_unsave_markers [/lib/x86_64-linux-gnu/libc-2.19.so]
+     18  /build/buildd/eglibc-2.19/elf/dl-minimal.c:free [/lib/x86_64-linux-gnu/ld-2.19.so]
+     18  ???:std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     17  ???:0x000000000005bd20 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     17  ???:0x0000000000002fa0 [/lib/x86_64-linux-gnu/libgcc_s.so.1]
+     17  /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<reason_codes, std::pair<reason_codes const, reason_string>, std::_Select1st<std::pair<reason_codes const, reason_string> >, std::less<reason_codes>, std::allocator<std::pair<reason_codes const, reason_string> > >::_M_get_insert_unique_pos(reason_codes const&) [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     17  ???:0x0000000000005990 [/lib/x86_64-linux-gnu/libm-2.19.so]
+     17  ???:0x0000000000000630 [/usr/lib/valgrind/vgpreload_core-amd64-linux.so]
+     17  ???:0x0000000000002fe0 [/lib/x86_64-linux-gnu/libgcc_s.so.1]
+     17  /build/buildd/eglibc-2.19/elf/../misc/sbrk.c:sbrk [/lib/x86_64-linux-gnu/ld-2.19.so]
+     17  ???:0x0000000000000f50 [/lib/x86_64-linux-gnu/libdl-2.19.so]
+     17  /build/buildd/eglibc-2.19/stdlib/cxa_thread_atexit_impl.c:__call_tls_dtors [/lib/x86_64-linux-gnu/libc-2.19.so]
+     16  ???:0x00000000000059d0 [/lib/x86_64-linux-gnu/libm-2.19.so]
+     16  /build/buildd/eglibc-2.19/ctype/ctype-info.c:__ctype_init [/lib/x86_64-linux-gnu/libc-2.19.so]
+     16  /usr/include/c++/4.8/bits/stl_list.h:std::list<request*, std::allocator<request*> >::~list() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     16  ???:0x0000000000000f90 [/lib/x86_64-linux-gnu/libdl-2.19.so]
+     16  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__ZN18FingerPrintResultsC2Ev
+     16  ???:0x000000000005bd60 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     16  /build/buildd/eglibc-2.19/elf/dl-tls.c:_dl_next_tls_modid [/lib/x86_64-linux-gnu/ld-2.19.so]
+     16  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_read [/lib/x86_64-linux-gnu/libc-2.19.so]
+     16  /build/buildd/eglibc-2.19/malloc/morecore.c:__default_morecore [/lib/x86_64-linux-gnu/libc-2.19.so]
+     16  /build/buildd/eglibc-2.19/stdio-common/printf-parse.h:vfprintf
+     16  ???:0x0000000000000670 [/usr/lib/valgrind/vgpreload_core-amd64-linux.so]
+     16  ???:0x000000000042c2f6 [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     15  /build/buildd/eglibc-2.19/libio/genops.c:_IO_sgetn [/lib/x86_64-linux-gnu/libc-2.19.so]
+     15  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_exp.c:__exp_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+     15  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:__read_nocancel [/lib/x86_64-linux-gnu/libc-2.19.so]
+     15  ???:0x000000000042c3b0 [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     15  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_setbuf@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+     14  /build/buildd/eglibc-2.19/libio/genops.c:_IO_default_finish [/lib/x86_64-linux-gnu/libc-2.19.so]
+     14  /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<port_spec, std::pair<port_spec const, service_node>, std::_Select1st<std::pair<port_spec const, service_node> >, std::less<port_spec>, std::allocator<std::pair<port_spec const, service_node> > >::_M_erase(std::_Rb_tree_node<std::pair<port_spec const, service_node> >*) [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     14  /usr/include/c++/4.8/bits/stl_list.h:std::list<dns_server, std::allocator<dns_server> >::~list() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     14  /usr/include/c++/4.8/bits/stl_vector.h:std::vector<std::string, std::allocator<std::string> >::~vector() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     14  /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<proto_dport, std::pair<proto_dport const, payload>, std::_Select1st<std::pair<proto_dport const, payload> >, std::less<proto_dport>, std::allocator<std::pair<proto_dport const, payload> > >::_M_erase(std::_Rb_tree_node<std::pair<proto_dport const, payload> >*) [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     14  ???:std::locale::facet::_S_create_c_locale(__locale_struct*&, char const*, __locale_struct*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     14  /usr/include/c++/4.8/bits/list.tcc:std::_List_base<ScriptResult, std::allocator<ScriptResult> >::_M_clear() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     13  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_init@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+     13  /build/buildd/eglibc-2.19/elf/rtld.c:security_init [/lib/x86_64-linux-gnu/ld-2.19.so]
+     13  ???:__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::sync() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     13  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/memmove.c:memcpy@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+     12  /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<HopIdent, std::pair<HopIdent const, Hop*>, std::_Select1st<std::pair<HopIdent const, Hop*> >, std::less<HopIdent>, std::allocator<std::pair<HopIdent const, Hop*> > >::_M_erase(std::_Rb_tree_node<std::pair<HopIdent const, Hop*> >*) [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     12  /usr/include/c++/4.8/bits/stl_tree.h:NmapOps::NmapOps()
+     12  /usr/include/x86_64-linux-gnu/bits/stdio2.h:printusage(int)
+     12  traceroute.cc:_GLOBAL__sub_I__ZN5Probe13token_counterE [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     12  ???:std::error_category::~error_category() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     12  /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<int, std::pair<int const, char*>, std::_Select1st<std::pair<int const, char*> >, std::less<int>, std::allocator<std::pair<int const, char*> > >::_M_erase(std::_Rb_tree_node<std::pair<int const, char*> >*) [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     12  ???:std::error_category::error_category() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     12  /build/buildd/eglibc-2.19/elf/rtld.c:map_doit [/lib/x86_64-linux-gnu/ld-2.19.so]
+     12  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/x86_64/brk.c:brk [/lib/x86_64-linux-gnu/ld-2.19.so]
+     12  services.cc:_GLOBAL__sub_I__Z26service_node_ratio_compareRK12service_nodeS1_ [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     12  /usr/include/c++/4.8/ext/new_allocator.h:std::_Rb_tree<reason_codes, std::pair<reason_codes const, reason_string>, std::_Select1st<std::pair<reason_codes const, reason_string> >, std::less<reason_codes>, std::allocator<std::pair<reason_codes const, reason_string> > >::_M_erase(std::_Rb_tree_node<std::pair<reason_codes const, reason_string> >*)
+     12  /usr/include/x86_64-linux-gnu/bits/unistd.h:nrand_init
+     11  ???:0x000000000005b710 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     11  /build/buildd/eglibc-2.19/debug/../libio/libioP.h:__printf_chk
+     11  NmapOps.cc:NmapOps::NmapOps() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+     11  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_sin.c:cos [/lib/x86_64-linux-gnu/libm-2.19.so]
+     11  /usr/include/c++/4.8/bits/stl_vector.h:NmapOps::~NmapOps()
+     11  /build/buildd/eglibc-2.19/elf/dl-tls.c:__tls_get_addr [/lib/x86_64-linux-gnu/ld-2.19.so]
+     10  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/syscall-template.S:munmap [/lib/x86_64-linux-gnu/libc-2.19.so]
+     10  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:__close_nocancel [/lib/x86_64-linux-gnu/libc-2.19.so]
+     10  /build/buildd/eglibc-2.19/elf/dl-cache.c:_dl_unload_cache [/lib/x86_64-linux-gnu/ld-2.19.so]
+     10  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:__open_nocancel [/lib/x86_64-linux-gnu/libc-2.19.so]
+     10  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_atan2.c:__atan2_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+     10  /usr/include/x86_64-linux-gnu/bits/fcntl2.h:nrand_init
+     10  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_log.c:__log_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+     10  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_sin.c:sin [/lib/x86_64-linux-gnu/libm-2.19.so]
+     10  /build/buildd/eglibc-2.19/elf/rtld.c:version_check_doit [/lib/x86_64-linux-gnu/ld-2.19.so]
+     10  ???:std::locale::facet::_S_get_c_name() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+     10  FPEngine.cc:FPNetworkControl::~FPNetworkControl() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      9  NmapOps.cc:_GLOBAL__sub_I_o [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      9  ???:0x0000000000000ee0 [/lib/x86_64-linux-gnu/libdl-2.19.so]
+      9  FPEngine.cc:_GLOBAL__sub_I_global_netctl [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      9  /build/buildd/eglibc-2.19/nptl/../nptl/sysdeps/unix/sysv/linux/register-atfork.c:__linkin_atfork [/lib/x86_64-linux-gnu/libc-2.19.so]
+      9  FPEngine.cc:FPNetworkControl::FPNetworkControl() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      9  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-osinfo.h:security_init
+      9  portreasons.cc:_GLOBAL__sub_I__ZN11port_reason11set_ip_addrEPK16sockaddr_storage [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      9  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-irel.h:_dl_fixup
+      9  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/strcmp.S:strcmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+      9  /build/buildd/eglibc-2.19/dlfcn/dlerror.c:check_free [/lib/x86_64-linux-gnu/libdl-2.19.so]
+      9  ???:0x00000000000005c0 [/usr/lib/valgrind/vgpreload_core-amd64-linux.so]
+      9  /build/buildd/eglibc-2.19/setjmp/sigjmp.c:__sigjmp_save [/lib/x86_64-linux-gnu/libc-2.19.so]
+      9  ???:__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::sync() [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+      9  ???:0x0000000000002f10 [/lib/x86_64-linux-gnu/libgcc_s.so.1]
+      9  nbase/nbase_addrset.c:nbase_set_log [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      9  ???:0x000000000006eca0 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+      9  nmap.cc:printusage(int) [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      9  ???:0x0000000000005920 [/lib/x86_64-linux-gnu/libm-2.19.so]
+      9  ???:0x000000000005bcb0 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+      8  /usr/include/c++/4.8/bits/list.tcc:std::list<request*, std::allocator<request*> >::~list()
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z13init_payloadsv
+      8  /build/buildd/eglibc-2.19/malloc/hooks.c:malloc_hook_ini [/lib/x86_64-linux-gnu/libc-2.19.so]
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z23initialize_timeout_infoP12timeout_info
+      8  /usr/include/c++/4.8/bits/stl_construct.h:NmapOps::~NmapOps()
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I_o
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z24addprotocolsfromservmaskPcPh
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z11luaopen_lfsP9lua_State
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__ZN4PortC2Ev
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z11set_versionP9lua_StatePK17serviceDeductions
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I_main
+      8  ???:0x00000000000b16a0 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z10returnhostP14HostGroupState
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I_global_netctl
+      8  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_stat [/lib/x86_64-linux-gnu/libc-2.19.so]
+      8  ???:0x000000000042c320 [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z8wildtestPcS_
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z14remove_and_ageR9host_elem
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z8tty_initv
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__ZN12ScriptResult5clearEv
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__ZN11port_reason11set_ip_addrEPK16sockaddr_storage
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z14nseU_tracebackP9lua_State
+      8  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_finish@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I_prbWindowSz
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z18string_pool_insertPKc
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z12print_iflistv
+      8  ???:0x000000000042c390 [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__ZN12ConnectProbeC2Ev
+      8  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_asin.c:__acos_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I_fatal
+      8  /usr/include/c++/4.8/bits/stl_list.h:std::list<service_node, std::allocator<service_node> >::~list() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      8  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_asin.c:__asin_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+      8  /usr/include/c++/4.8/bits/stl_list.h:std::list<Hop*, std::allocator<Hop*> >::~list() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__ZN17ServiceProbeMatchC2Ev
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__ZN6TargetC2Ev
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z13xml_write_rawPKcz
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z15nmap_raw_socketv
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z16set_program_namePKc
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z20ipv6_get_fragment_idPK7ip6_hdrj
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I_MacTable
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z10value_dumpP9lua_Stateii
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z12luaopen_dnetP9lua_State
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z19get_default_ftpinfov
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z21l_get_ssl_certificateP9lua_State
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__ZN5Probe13token_counterE
+      8  xml.cc:xml_writer::~xml_writer() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__Z26service_node_ratio_compareRK12service_nodeS1_
+      8  /usr/include/c++/4.8/iostream:_GLOBAL__sub_I__ZN10NewTargets11new_targetsE
+      8  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_pow.c:__pow_finite [/lib/x86_64-linux-gnu/libm-2.19.so]
+      7  xml.cc:_GLOBAL__sub_I__Z13xml_write_rawPKcz [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_rint.S:rint [/lib/x86_64-linux-gnu/libm-2.19.so]
+      7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_ceilf.S:ceilf [/lib/x86_64-linux-gnu/libm-2.19.so]
+      7  payload.cc:_GLOBAL__sub_I__Z13init_payloadsv [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_floorf.S:floorf [/lib/x86_64-linux-gnu/libm-2.19.so]
+      7  nbase/nbase_rnd.c:get_random_uint [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      7  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/strcmp.S:strcasecmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+      7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_ceil.S:ceil [/lib/x86_64-linux-gnu/libm-2.19.so]
+      7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_floor.S:floor [/lib/x86_64-linux-gnu/libm-2.19.so]
+      7  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_rintf.S:rintf [/lib/x86_64-linux-gnu/libm-2.19.so]
+      7  nse_main.cc:_GLOBAL__sub_I__ZN12ScriptResult5clearEv [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      7  MACLookup.cc:_GLOBAL__sub_I_MacTable [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      6  ???:0x0000000004c27da0 [???]
+      6  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/strcmp.S:strncasecmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+      6  /build/buildd/eglibc-2.19/libio/../sysdeps/unix/sysv/linux/sys/sysmacros.h:_IO_file_doallocate
+      6  ???:0x0000000005134400 [???]
+      6  ???:0x0000000004a25560 [???]
+      6  ???:0x0000000000429f28 [???]
+      6  ???:0x00000000054377c0 [???]
+      6  /build/buildd/eglibc-2.19/libio/libioP.h:fclose@@GLIBC_2.2.5
+      6  /usr/include/c++/4.8/bits/stl_vector.h:NmapOps::NmapOps()
+      6  ???:0x0000000004e83c98 [???]
+      6  /build/buildd/eglibc-2.19/libio/fileno.c:fileno [/lib/x86_64-linux-gnu/libc-2.19.so]
+      6  ???:0x000000000005b730 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+      6  ???:0x0000000038051063 [/usr/lib/valgrind/callgrind-amd64-linux]
+      5  /usr/include/c++/4.8/bits/stl_tree.h:_GLOBAL__sub_I__ZN5Probe13token_counterE
+      5  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-machine.h:_dl_sysdep_start
+      5  /usr/include/c++/4.8/bits/list.tcc:xml_writer::~xml_writer()
+      5  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/syscall-template.S:uname [/lib/x86_64-linux-gnu/ld-2.19.so]
+      5  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/syscall-template.S:__lseek_nocancel [/lib/x86_64-linux-gnu/libc-2.19.so]
+      5  ???:__cxa_guard_release [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+      5  /usr/include/c++/4.8/bits/stl_tree.h:_GLOBAL__sub_I_MacTable
+      5  /usr/include/c++/4.8/bits/stl_tree.h:_GLOBAL__sub_I__Z13init_payloadsv
+      5  /usr/include/c++/4.8/bits/stl_tree.h:_GLOBAL__sub_I__Z26service_node_ratio_compareRK12service_nodeS1_
+      5  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/sysv/linux/_exit.c:_Exit [/lib/x86_64-linux-gnu/libc-2.19.so]
+      4  /usr/include/c++/4.8/bits/list.tcc:std::list<service_node, std::allocator<service_node> >::~list()
+      4  /usr/include/c++/4.8/bits/stl_tree.h:NmapOps::~NmapOps()
+      4  ???:0x00000000000b09c0 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+      4  /build/buildd/eglibc-2.19/stdlib/exit.c:exit [/lib/x86_64-linux-gnu/libc-2.19.so]
+      4  ???:0x00000000000b16b0 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19]
+      4  /build/buildd/eglibc-2.19/libio/iofopen.c:__fopen_maybe_mmap [/lib/x86_64-linux-gnu/libc-2.19.so]
+      4  /build/buildd/eglibc-2.19/elf/dl-altinit.c:dlinit_alt [/lib/x86_64-linux-gnu/libc-2.19.so]
+      4  /usr/include/c++/4.8/bits/list.tcc:std::list<Hop*, std::allocator<Hop*> >::~list()
+      4  /usr/include/c++/4.8/bits/stl_construct.h:std::vector<std::string, std::allocator<std::string> >::~vector()
+      4  tcpip.h:_GLOBAL__sub_I__Z15nmap_raw_socketv
+      3  /usr/include/c++/4.8/bits/list.tcc:std::list<dns_server, std::allocator<dns_server> >::~list()
+      3  /usr/include/c++/4.8/bits/stl_vector.h:FPNetworkControl::~FPNetworkControl()
+      3  /usr/include/c++/4.8/bits/stl_construct.h:NmapOps::Initialize()
+      3  ???:0x0000000004ee97c4 [???]
+      3  /build/buildd/eglibc-2.19/malloc/arena.c:malloc_hook_ini
+      3  /usr/include/c++/4.8/bits/stl_vector.h:_GLOBAL__sub_I__Z16set_program_namePKc
+      3  /build/buildd/eglibc-2.19/time/localtime.c:localtime [/lib/x86_64-linux-gnu/libc-2.19.so]
+      3  /usr/include/c++/4.8/bits/stl_vector.h:FPNetworkControl::FPNetworkControl()
+      3  /build/buildd/eglibc-2.19/csu/errno-loc.c:__errno_location [/lib/x86_64-linux-gnu/libc-2.19.so]
+      3  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/syscall-template.S:geteuid [/lib/x86_64-linux-gnu/libc-2.19.so]
+      3  ???:0x000000003805106d [/usr/lib/valgrind/callgrind-amd64-linux]
+      3  ???:0x000000000051589c [???]
+      3  /usr/include/x86_64-linux-gnu/bits/string3.h:FPNetworkControl::FPNetworkControl()
+      3  ???:0x0000000004c289d0 [???]
+      3  ???:0x00000000051a31b8 [???]
+      3  ???:0x0000000005447998 [???]
+      3  /usr/include/c++/4.8/bits/stl_vector.h:nmap_main(int, char**)
+      3  /build/buildd/eglibc-2.19/dlfcn/dlfcn.c:init [/lib/x86_64-linux-gnu/libdl-2.19.so]
+      3  /usr/include/c++/4.8/bits/stl_vector.h:NmapOps::Initialize()
+      3  tcpip.cc:_GLOBAL__sub_I__Z15nmap_raw_socketv [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      3  ???:0x0000000004a257e8 [???]
+      2  TargetGroup.cc:_GLOBAL__sub_I__ZN10NewTargets11new_targetsE [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  scan_engine.cc:_GLOBAL__sub_I__ZN12ConnectProbeC2Ev [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  nse_nsock.cc:_GLOBAL__sub_I__Z21l_get_ssl_certificateP9lua_State [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /build/buildd/eglibc-2.19/libio/../libio/libioP.h:ftello
+      2  /build/buildd/eglibc-2.19/libio/iofopen.c:fopen@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.19.so]
+      2  /usr/include/c++/4.8/bits/stl_tree.h:std::map<int, char*, std::less<int>, std::allocator<std::pair<int const, char*> > >::~map() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /usr/include/c++/4.8/bits/stl_list.h:_GLOBAL__sub_I__Z13xml_write_rawPKcz
+      2  nse_dnet.cc:_GLOBAL__sub_I__Z12luaopen_dnetP9lua_State [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /usr/include/c++/4.8/bits/stl_tree.h:std::map<HopIdent, Hop*, std::less<HopIdent>, std::allocator<std::pair<HopIdent const, Hop*> > >::~map() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  protocols.cc:_GLOBAL__sub_I__Z24addprotocolsfromservmaskPcPh [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  nmap_error.cc:_GLOBAL__sub_I_fatal [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /usr/include/c++/4.8/bits/stl_list.h:_GLOBAL__sub_I__Z26service_node_ratio_compareRK12service_nodeS1_
+      2  /usr/include/c++/4.8/bits/stl_map.h:NmapOps::~NmapOps()
+      2  nse_nmaplib.cc:_GLOBAL__sub_I__Z11set_versionP9lua_StatePK17serviceDeductions [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  Target.cc:_GLOBAL__sub_I__ZN6TargetC2Ev [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  FingerPrintResults.cc:_GLOBAL__sub_I__ZN18FingerPrintResultsC2Ev [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_seek [/lib/x86_64-linux-gnu/libc-2.19.so]
+      2  nse_utility.cc:_GLOBAL__sub_I__Z14nseU_tracebackP9lua_State [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /usr/include/c++/4.8/bits/stl_tree.h:std::map<port_spec, service_node, std::less<port_spec>, std::allocator<std::pair<port_spec const, service_node> > >::~map() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  nse_fs.cc:_GLOBAL__sub_I__Z11luaopen_lfsP9lua_State [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /build/buildd/eglibc-2.19/elf/dl-debug.c:_dl_debug_state [/lib/x86_64-linux-gnu/ld-2.19.so]
+      2  service_scan.cc:_GLOBAL__sub_I__ZN17ServiceProbeMatchC2Ev [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  targets.cc:_GLOBAL__sub_I__Z10returnhostP14HostGroupState [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  nmap.cc:set_program_name(char const*) [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  osscan.cc:_GLOBAL__sub_I__Z18string_pool_insertPKc [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/syscall-template.S:lseek [/lib/x86_64-linux-gnu/libc-2.19.so]
+      2  portlist.cc:_GLOBAL__sub_I__ZN4PortC2Ev [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /usr/include/c++/4.8/bits/stl_list.h:_GLOBAL__sub_I__ZN5Probe13token_counterE
+      2  main.cc:_GLOBAL__sub_I_main [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /build/buildd/eglibc-2.19/elf/setup-vdso.h:dl_main
+      2  idle_scan.cc:_GLOBAL__sub_I__Z20ipv6_get_fragment_idPK7ip6_hdrj [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /usr/include/c++/4.8/bits/stl_list.h:_GLOBAL__sub_I__ZN12ScriptResult5clearEv
+      2  nse_debug.cc:_GLOBAL__sub_I__Z10value_dumpP9lua_Stateii [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  output.cc:_GLOBAL__sub_I__Z12print_iflistv [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /usr/include/c++/4.8/bits/stl_tree.h:reason_map_type::~reason_map_type() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /build/buildd/eglibc-2.19/libio/fileops.c:_IO_file_close [/lib/x86_64-linux-gnu/libc-2.19.so]
+      2  osscan2.cc:_GLOBAL__sub_I_prbWindowSz [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  utils.cc:_GLOBAL__sub_I__Z8wildtestPcS_ [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /build/buildd/eglibc-2.19/setjmp/../sysdeps/x86_64/bsd-_setjmp.S:_setjmp [/lib/x86_64-linux-gnu/libc-2.19.so]
+      2  timing.cc:_GLOBAL__sub_I__Z23initialize_timeout_infoP12timeout_info [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /build/buildd/eglibc-2.19/dlfcn/dlerror.c:fini [/lib/x86_64-linux-gnu/libdl-2.19.so]
+      2  /usr/include/c++/4.8/bits/stl_tree.h:std::map<proto_dport, payload, std::less<proto_dport>, std::allocator<std::pair<proto_dport const, payload> > >::~map() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  nmap_tty.cc:_GLOBAL__sub_I__Z8tty_initv [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  nmap_ftp.cc:_GLOBAL__sub_I__Z19get_default_ftpinfov [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      2  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-sysdep.c:_dl_sysdep_start
+      2  /build/buildd/eglibc-2.19/libio/libioP.h:fseek
+      1  ???:sin
+      1  ???:__atan2_finite
+      1  /build/buildd/eglibc-2.19/elf/../elf/dl-sysdep.c:_dl_sysdep_start_cleanup [/lib/x86_64-linux-gnu/ld-2.19.so]
+      1  /usr/include/c++/4.8/bits/stl_list.h:std::list<ScriptResult, std::allocator<ScriptResult> >::~list() [/home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap]
+      1  ???:__log_finite
+      1  NmapOps.h:NmapOps::Initialize()
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: tcpip.h
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 265 ----------------------------------------
+ .    static void traceArp(pdirection pdir, const u8 *frame, u32 len,
+ .                                      struct timeval *now);
+ .    static void traceND(pdirection pdir, const u8 *frame, u32 len,
+ .                                      struct timeval *now);
+ .  };
+ .  
+ .  class PacketCounter {
+ .   public:
+ 4    PacketCounter() : sendPackets(0), sendBytes(0), recvPackets(0), recvBytes(0) {}
+ .  #if WIN32
+ .    unsigned __int64
+ .  #else
+ .    unsigned long long
+ .  #endif
+ .            sendPackets, sendBytes, recvPackets, recvBytes;
+ .  };
+ .  
+-- line 281 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nse_debug.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 94 ----------------------------------------
+ .    printf("=== nmap.registry\n");
+ .    lua_getglobal(L, "nmap");
+ .    lua_getfield(L, -1, "registry");
+ .    table_dump(L, -1, 1);
+ .    lua_pop(L, 2);
+ .    printf("\n");
+ .  
+ .    assert(lua_gettop(L) == top);
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: payload.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 158 ----------------------------------------
+ .    bool operator<(const proto_dport& other) const {
+ .      if (proto == other.proto)
+ .        return dport < other.dport;
+ .      else
+ .        return proto < other.proto;
+ .    }
+ .  };
+ .  
+ 5  static std::map<struct proto_dport, struct payload> payloads;
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+ .  
+ .  /* Newlines are significant because keyword directives (like "source") that
+ .     follow the payload string are significant to the end of the line. */
+ .  enum token_type {
+ .    TOKEN_EOF = 0,
+ .    TOKEN_NEWLINE,
+ .    TOKEN_SYMBOL,
+ .    TOKEN_STRING,
+-- line 174 ----------------------------------------
+-- line 413 ----------------------------------------
+ .     length is returned through the length pointer. */
+ .  const char *get_udp_payload(u16 dport, size_t *length) {
+ .    if (o.extra_payload != NULL) {
+ .      *length = o.extra_payload_length;
+ .      return o.extra_payload;
+ .    } else {
+ .      return udp_port2payload(dport, length);
+ .    }
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: FPEngine.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 136 ----------------------------------------
+ .  
+ .  
+ .  /******************************************************************************
+ .   * Globals.                                                                   *
+ .   ******************************************************************************/
+ .  
+ .  /* This is the global network controller. FPHost classes use it to request
+ .   * network resources and schedule packet transmissions. */
+ 7  FPNetworkControl global_netctl;
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+15  => FPEngine.cc:FPNetworkControl::FPNetworkControl() (1x)
+ .  
+ .  
+ .  /******************************************************************************
+ .   * Implementation of class FPNetworkControl.                                  *
+ .   ******************************************************************************/
+ .  FPNetworkControl::FPNetworkControl() {
+ .    memset(&this->nsp, 0, sizeof(nsock_pool));
+ .    memset(&this->pcap_nsi, 0, sizeof(pcap_nsi));
+ .    memset(&this->pcap_ev_id, 0, sizeof(nsock_event_id));
+ 1    this->nsock_init = false;
+ 1    this->rawsd = -1;
+ 1    this->probes_sent = 0;
+ 1    this->responses_recv = 0;
+ 1    this->probes_timedout = 0;
+ 2    this->cc_cwnd = 0;
+ 2    this->cc_ssthresh = 0;
+ .  }
+ .  
+ .  
+ 4  FPNetworkControl::~FPNetworkControl() {
+ 2    if (this->nsock_init) {
+ .      nsock_event_cancel(this->nsp, this->pcap_ev_id, 0);
+ .      nsp_delete(this->nsp);
+ .      this->nsock_init = false;
+ .    }
+ 4  }
+ .  
+ .  
+ .  /* (Re)-Initialize object's state (default parameter setup and nsock
+ .   * initialization). */
+ .  void FPNetworkControl::init(const char *ifname, devtype iftype) {
+ .  
+ .    /* Init congestion control parameters */
+ .    this->cc_init();
+-- line 178 ----------------------------------------
+-- line 2685 ----------------------------------------
+ .  
+ .  
+ .  /* This handler is a wrapper for the FPNetworkControl:response_reception_handler()
+ .   * method. We need this because C++ does not allow to use class methods as
+ .   * callback functions for things like signal() or the Nsock lib. */
+ .  void response_reception_handler_wrapper(nsock_pool nsp, nsock_event nse, void *arg) {
+ .    global_netctl.response_reception_handler(nsp, nse, arg);
+ .    return;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 96 ----------------------------------------
+ .  {
+ .    return __fprintf_chk (__stream, __USE_FORTIFY_LEVEL - 1, __fmt,
+ .  			__va_arg_pack ());
+ .  }
+ .  
+ .  __fortify_function int
+ .  printf (const char *__restrict __fmt, ...)
+ .  {
+12    return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());
+37,982  => /build/buildd/eglibc-2.19/debug/printf_chk.c:__printf_chk (1x)
+1,349  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+ .  }
+ .  # elif !defined __cplusplus
+ .  #  define printf(...) \
+ .    __printf_chk (__USE_FORTIFY_LEVEL - 1, __VA_ARGS__)
+ .  #  define fprintf(stream, ...) \
+ .    __fprintf_chk (stream, __USE_FORTIFY_LEVEL - 1, __VA_ARGS__)
+ .  # endif
+ .  
+-- line 112 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: Target.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 569 ----------------------------------------
+ .          return osscan_flag;
+ .  }
+ .  
+ .  void Target::osscanSetFlag(int flag) {
+ .          if(osscan_flag == OS_PERF_UNREL)
+ .                  return;
+ .          else
+ .                  osscan_flag = flag;
+ 2  }
+ .  
+ .  
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nse_main.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 41 ----------------------------------------
+ .  
+ .  #ifndef MAXPATHLEN
+ .  #  define MAXPATHLEN 2048
+ .  #endif
+ .  
+ .  extern NmapOps o;
+ .  
+ .  /* global object to store Pre-Scan and Post-Scan script results */
+ 5  static ScriptResults script_scan_results;
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+ .  
+ .  static int timedOut (lua_State *L)
+ .  {
+ .    Target *target = nseU_gettarget(L, 1);
+ .    lua_pushboolean(L, target->timedOut(NULL));
+ .    return 1;
+ .  }
+ .  
+-- line 57 ----------------------------------------
+-- line 810 ----------------------------------------
+ .  
+ .  void close_nse (void)
+ .  {
+ .    if (L_NSE != NULL)
+ .    {
+ .      lua_close(L_NSE);
+ .      L_NSE = NULL;
+ .    }
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nmap_error.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 280 ----------------------------------------
+ .  
+ .  #ifdef WIN32
+ .    HeapFree(GetProcessHeap(), 0, strerror_s);
+ .  #endif
+ .  
+ .    log_flush(LOG_NORMAL);
+ .    fflush(stderr);
+ .    return;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: protocols.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 244 ----------------------------------------
+ .    for(current = protocol_table[num % PROTOCOL_TABLE_SIZE];
+ .        current; current = current->next) {
+ .      if (num == current->protoent->p_proto)
+ .        return current->protoent;
+ .    }
+ .  
+ .    /* Couldn't find it ... oh well. */
+ .    return NULL;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8/ext/new_allocator.h
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 96 ----------------------------------------
+  .        // NB: __n is permitted to be 0.  The C++ standard says nothing
+  .        // about what the return value is when __n == 0.
+  .        pointer
+  .        allocate(size_type __n, const void* = 0)
+  .        { 
+  .  	if (__n > this->max_size())
+  .  	  std::__throw_bad_alloc();
+  .  
+189  	return static_cast<_Tp*>(::operator new(__n * sizeof(_Tp)));
+68,332  => ???:operator new(unsigned long) (37x)
+875  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+  .        }
+  .  
+  .        // __p is not permitted to be a null pointer.
+  .        void
+  .        deallocate(pointer __p, size_type)
+115        { ::operator delete(__p); }
+372  => ???:operator delete(void*) (4x)
+  .  
+  .        size_type
+  .        max_size() const _GLIBCXX_USE_NOEXCEPT
+  .        { return size_t(-1) / sizeof(_Tp); }
+  .  
+  .  #if __cplusplus >= 201103L
+  .        template<typename _Up, typename... _Args>
+  .          void
+-- line 118 ----------------------------------------
+-- line 122 ----------------------------------------
+  .        template<typename _Up>
+  .          void 
+  .          destroy(_Up* __p) { __p->~_Up(); }
+  .  #else
+  .        // _GLIBCXX_RESOLVE_LIB_DEFECTS
+  .        // 402. wrong new expression in [some_] allocator::construct
+  .        void 
+  .        construct(pointer __p, const _Tp& __val) 
+296        { ::new((void *)__p) _Tp(__val); }
+  .  
+  .        void 
+  .        destroy(pointer __p) { __p->~_Tp(); }
+  .  #endif
+  .      };
+  .  
+  .    template<typename _Tp>
+  .      inline bool
+-- line 138 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8/bits/stl_map.h
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 88 ----------------------------------------
+ .     *  Maps support bidirectional iterators.
+ .     *
+ .     *  The private tree data is declared exactly the same way for map and
+ .     *  multimap; the distinction is made entirely in how the tree functions are
+ .     *  called (*_unique versus *_equal, same as the standard).
+ .    */
+ .    template <typename _Key, typename _Tp, typename _Compare = std::less<_Key>,
+ .              typename _Alloc = std::allocator<std::pair<const _Key, _Tp> > >
+ 2      class map
+ .      {
+ .      public:
+ .        typedef _Key                                          key_type;
+ .        typedef _Tp                                           mapped_type;
+ .        typedef std::pair<const _Key, _Tp>                    value_type;
+ .        typedef _Compare                                      key_compare;
+ .        typedef _Alloc                                        allocator_type;
+ .  
+-- line 104 ----------------------------------------
+-- line 455 ----------------------------------------
+ .        mapped_type&
+ .        operator[](const key_type& __k)
+ .        {
+ .  	// concept requirements
+ .  	__glibcxx_function_requires(_DefaultConstructibleConcept<mapped_type>)
+ .  
+ .  	iterator __i = lower_bound(__k);
+ .  	// __i->first is greater than or equivalent to __k.
+72  	if (__i == end() || key_comp()(__k, (*__i).first))
+ .  #if __cplusplus >= 201103L
+ .  	  __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+ .  					    std::tuple<const key_type&>(__k),
+ .  					    std::tuple<>());
+ .  #else
+ .            __i = insert(__i, value_type(__k, mapped_type()));
+ .  #endif
+ .  	return (*__i).second;
+-- line 471 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8/bits/list.tcc
+--------------------------------------------------------------------------------
+   Ir 
+
+-- line 57 ----------------------------------------
+    .  #define _LIST_TCC 1
+    .  
+    .  namespace std _GLIBCXX_VISIBILITY(default)
+    .  {
+    .  _GLIBCXX_BEGIN_NAMESPACE_CONTAINER
+    .  
+    .    template<typename _Tp, typename _Alloc>
+    .      void
+    5      _List_base<_Tp, _Alloc>::
+    .      _M_clear()
+    .      {
+    .        typedef _List_node<_Tp>  _Node;
+  263        _Node* __cur = static_cast<_Node*>(_M_impl._M_node._M_next);
+1,045        while (__cur != &_M_impl._M_node)
+    .  	{
+    .  	  _Node* __tmp = __cur;
+    .  	  __cur = static_cast<_Node*>(__cur->_M_next);
+    .  #if __cplusplus >= 201103L
+    .  	  _M_get_Node_allocator().destroy(__tmp);
+    .  #else
+    .  	  _M_get_Tp_allocator().destroy(std::__addressof(__tmp->_M_data));
+    .  #endif
+    .  	  _M_put_node(__tmp);
+    .  	}
+    5      }
+    .  
+    .  #if __cplusplus >= 201103L
+    .    template<typename _Tp, typename _Alloc>
+    .      template<typename... _Args>
+    .        typename list<_Tp, _Alloc>::iterator
+    .        list<_Tp, _Alloc>::
+    .        emplace(iterator __position, _Args&&... __args)
+    .        {
+-- line 89 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: NmapOps.h
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 130 ----------------------------------------
+ .  #include <nsock.h>
+ .  #include <string>
+ .  
+ .  class NmapOps {
+ .   public:
+ .    NmapOps();
+ .    ~NmapOps();
+ .    void ReInit(); // Reinitialize the class to default state
+ 1    void setaf(int af) { addressfamily = af; }
+ .    int af() { return addressfamily; }
+ .    // no setpf() because it is based on setaf() values
+ .    int pf();
+ .    /* Returns 0 for success, nonzero if no source has been set or any other
+ .       failure */
+ .    int SourceSockAddr(struct sockaddr_storage *ss, size_t *ss_len);
+ .    /* Returns a const pointer to the source address if set, or NULL if unset. */
+ .    const struct sockaddr_storage *SourceSockAddr() const;
+-- line 146 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: NmapOps.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 127 ----------------------------------------
+ .  #include "nbase.h"
+ .  #include "NmapOps.h"
+ .  #include "services.h"
+ .  #include "utils.h"
+ .  #ifdef WIN32
+ .  #include "winfix.h"
+ .  #endif
+ .  
+ 7  NmapOps o;
+36,157  => NmapOps.cc:NmapOps::NmapOps() (1x)
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+ .  
+ 4  NmapOps::NmapOps() {
+ 1    datadir = NULL;
+ 1    xsl_stylesheet = NULL;
+ 1    Initialize();
+36,128  => NmapOps.cc:NmapOps::Initialize() (1x)
+ 4  }
+ .  
+ 8  NmapOps::~NmapOps() {
+ 3    if (xsl_stylesheet) {
+ .      free(xsl_stylesheet);
+ .      xsl_stylesheet = NULL;
+ .    }
+ .  
+ 3    if (reference_FPs) {
+ .      delete reference_FPs;
+ .      reference_FPs = NULL;
+ .    }
+ .  
+ 3    if (dns_servers) {
+ .      free(dns_servers);
+ .      dns_servers = NULL;
+ .    }
+ 3    if (extra_payload) {
+ .      free(extra_payload);
+ .      extra_payload = NULL;
+ .    }
+ 3    if (ipoptions) {
+ .      free(ipoptions);
+ .      ipoptions = NULL;
+ .    }
+ 3    if (portlist) {
+ .      free(portlist);
+ .      portlist = NULL;
+ .    }
+ 3    if (proxy_chain) {
+ .      nsock_proxychain_delete(proxy_chain);
+ .      proxy_chain = NULL;
+ .    }
+ 3    if (exclude_spec) {
+ .      free(exclude_spec);
+ .      exclude_spec = NULL;
+ .    }
+ 3    if (idleProxy) {
+ .      free(idleProxy);
+ .      idleProxy = NULL;
+ .    }
+ 3    if (datadir) {
+ .      free(datadir);
+ .      datadir = NULL;
+ .    }
+ .  
+ .  #ifndef NOLUA
+ 6    if (scriptversion || script)
+ .      close_nse();
+ 3    if (scriptargs) {
+ .      free(scriptargs);
+ .      scriptargs = NULL;
+ .    }
+ .  #endif
+ 8  }
+ .  
+ .  void NmapOps::ReInit() {
+ .    Initialize();
+ .  }
+ .  
+ .  // no setpf() because it is based on setaf() values
+ .  int NmapOps::pf() {
+ .    return (af() == AF_INET)? PF_INET : PF_INET6;
+-- line 203 ----------------------------------------
+-- line 264 ----------------------------------------
+ .      i += strlen(percent_buffer);
+ .    }
+ .  
+ .    url = "file://" + url;
+ .  
+ .    return strdup(url.c_str());
+ .  }
+ .  
+ 6  void NmapOps::Initialize() {
+ .    setaf(AF_INET);
+ .  #if defined WIN32 || defined __amigaos__
+ .    isr00t = 1;
+ .  #else
+ 9    if (getenv("NMAP_PRIVILEGED"))
+1,299  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+440  => /build/buildd/eglibc-2.19/stdlib/getenv.c:getenv (1x)
+ .      isr00t = 1;
+ 5    else if (getenv("NMAP_UNPRIVILEGED"))
+458  => /build/buildd/eglibc-2.19/stdlib/getenv.c:getenv (1x)
+ .      isr00t = 0;
+ .    else
+11      isr00t = !(geteuid());
+ 3  => /build/buildd/eglibc-2.19/posix/../sysdeps/unix/syscall-template.S:geteuid (1x)
+1,273  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+ .  #endif
+ 1    have_pcap = true;
+ 1    debugging = 0;
+ 1    verbose = 0;
+ 1    min_packet_send_rate = 0.0; /* Unset. */
+ 1    max_packet_send_rate = 0.0; /* Unset. */
+ 1    stats_interval = 0.0; /* Unset. */
+ 1    randomize_hosts = 0;
+ 1    randomize_ports = 1;
+ 1    sendpref = PACKET_SEND_NOPREF;
+ 1    spoofsource = 0;
+ 1    fastscan = 0;
+ 1    device[0] = '\0';
+ 1    ping_group_sz = PING_GROUP_SZ;
+ 1    nogcc = 0;
+ 1    generate_random_ips = 0;
+ 1    reference_FPs = NULL;
+ 9    magic_port = 33000 + (get_random_uint() % 31000);
+32,442  => /home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nbase/nbase_rnd.c:get_random_uint (1x)
+ 1    magic_port_set = false;
+ 1    timing_level = 3;
+ 1    max_parallelism = 0;
+ 1    min_parallelism = 0;
+ 1    max_os_tries = 5;
+ 1    max_rtt_timeout = MAX_RTT_TIMEOUT;
+ 1    min_rtt_timeout = MIN_RTT_TIMEOUT;
+ 1    initial_rtt_timeout = INITIAL_RTT_TIMEOUT;
+ 1    max_retransmissions = MAX_RETRANSMISSIONS;
+ 1    min_host_group_sz = 1;
+ 1    max_host_group_sz = 100000; // don't want to be restrictive unless user sets
+ 1    max_tcp_scan_delay = MAX_TCP_SCAN_DELAY;
+ 1    max_udp_scan_delay = MAX_UDP_SCAN_DELAY;
+ 1    max_sctp_scan_delay = MAX_SCTP_SCAN_DELAY;
+ 1    max_ips_to_scan = 0;
+ 1    extra_payload_length = 0;
+ 1    extra_payload = NULL;
+ 1    scan_delay = 0;
+ 1    open_only = false;
+ 1    scanflags = -1;
+ 1    defeat_rst_ratelimit = 0;
+ 1    resume_ip.s_addr = 0;
+ 1    osscan_limit = 0;
+ 1    osscan_guess = 0;
+ 1    numdecoys = 0;
+ 1    decoyturn = -1;
+ 1    osscan = 0;
+ 1    servicescan = 0;
+ 1    override_excludeports = 0;
+ 1    version_intensity = 7;
+ 1    pingtype = PINGTYPE_UNKNOWN;
+ 5    listscan = allowall = ackscan = bouncescan = connectscan = 0;
+ 5    nullscan = xmasscan = fragscan = synscan = windowscan = 0;
+ 5    maimonscan = idlescan = finscan = udpscan = ipprotscan = 0;
+ 2    noportscan = noresolve = 0;
+ 1    sctpinitscan = 0;
+ 1    sctpcookieechoscan = 0;
+ 1    append_output = 0;
+ .    memset(logfd, 0, sizeof(FILE *) * LOG_NUM_FILES);
+ 1    ttl = -1;
+ 1    badsum = 0;
+ 2    nmap_stdout = stdout;
+ 4    gettimeofday(&start_time, NULL);
+ 3  => ???:0x0000000038051063 (1x)
+ 2    pTrace = vTrace = false;
+ 1    reason = false;
+ 1    adler32 = false;
+ 3    if (datadir) free(datadir);
+ 1    datadir = NULL;
+ 1    xsl_stylesheet_set = false;
+ 3    if (xsl_stylesheet) free(xsl_stylesheet);
+ 1    xsl_stylesheet = NULL;
+ 1    spoof_mac_set = false;
+ 1    mass_dns = true;
+ 1    deprecated_xml_osclass = false;
+ 1    resolve_all = 0;
+ 1    dns_servers = NULL;
+ 1    implicitARPPing = true;
+ 1    numhosts_scanned = 0;
+ 1    numhosts_up = 0;
+ 1    numhosts_scanning = 0;
+ 1    noninteractive = false;
+ 1    current_scantype = STYPE_UNKNOWN;
+ 1    ipoptions = NULL;
+ 1    ipoptionslen = 0;
+ 1    ipopt_firsthop = 0;
+ 1    ipopt_lasthop  = 0;
+ 1    release_memory = false;
+ 2    topportlevel = -1;
+ .  #ifndef NOLUA
+ 1    script = 0;
+ 1    scriptargs = NULL;
+ 1    scriptversion = 0;
+ 1    scripttrace = 0;
+ 1    scriptupdatedb = 0;
+ 1    scripthelp = false;
+ .    chosenScripts.clear();
+ .  #endif
+ .    memset(&sourcesock, 0, sizeof(sourcesock));
+ 1    sourcesocklen = 0;
+ 1    excludefd = NULL;
+ 1    exclude_spec = NULL;
+ 1    inputfd = NULL;
+ 1    idleProxy = NULL;
+ 1    portlist = NULL;
+ 1    proxy_chain = NULL;
+ 6  }
+ .  
+ .  bool NmapOps::SCTPScan() {
+ .    return sctpinitscan|sctpcookieechoscan;
+ .  }
+ .  
+ .  bool NmapOps::TCPScan() {
+ .    return ackscan|bouncescan|connectscan|finscan|idlescan|maimonscan|nullscan|synscan|windowscan|xmasscan;
+ .  }
+-- line 394 ----------------------------------------
+-- line 681 ----------------------------------------
+ .                  if (p == NULL) {
+ .                          chosenScripts.push_back(std::string(argument));
+ .                          break;
+ .                  } else {
+ .                          chosenScripts.push_back(std::string(argument, p - argument));
+ .                          argument = p + 1;
+ .                  }
+ .          }
+ 2  }
+ .  #endif
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nmap_ftp.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 125 ----------------------------------------
+ .  #include "nmap_ftp.h"
+ .  #include "output.h"
+ .  #include "NmapOps.h"
+ .  #include "nmap_error.h"
+ .  #include "tcpip.h"
+ .  #include "Target.h"
+ .  extern NmapOps o;
+ .  
+ 1  struct ftpinfo get_default_ftpinfo(void) {
+ .  #if (defined(IN_ADDR_DEEPSTRUCT) || defined( SOLARIS))
+ .    /* Note that struct in_addr in solaris is 3 levels deep just to store an
+ .     * unsigned int! */
+ .    struct ftpinfo ftp = { FTPUSER, FTPPASS, "",  { { { 0 } } } , 21, 0};
+ .  #else
+59    struct ftpinfo ftp = { FTPUSER, FTPPASS, "", { 0 }, 21, 0};
+ .  #endif
+ .    return ftp;
+ 1  }
+ .  
+ .  /* parse a URL stype ftp string of the form user:pass@server:portno */
+ .  int parse_bounce_argument(struct ftpinfo *ftp, char *url) {
+ .    char *p = url, *q, *s;
+ .  
+ .    if ((q = strrchr(url, '@'))) { /* we have user and/or pass */
+ .      *q++ = '\0';
+ .  
+-- line 150 ----------------------------------------
+-- line 376 ----------------------------------------
+ .        }
+ .      }
+ .    }
+ .  
+ .    if (o.debugging || o.verbose)
+ .      log_write(LOG_STDOUT, "Scanned %d ports in %ld seconds via the Bounce scan.\n",
+ .                numports, (long) time(NULL) - starttime);
+ .    return;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nmap.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 175 ----------------------------------------
+ .  static bool target_needs_new_hostgroup(std::vector<Target *> &targets,
+ .                                         const Target *target);
+ .  static void display_nmap_version();
+ .  
+ .  /* A mechanism to save argv[0] for code that requires that. */
+ .  static const char *program_name = NULL;
+ .  
+ .  void set_program_name(const char *name) {
+ 2    program_name = name;
+ .  }
+ .  
+ .  static const char *get_program_name(void) {
+ .    return program_name;
+ .  }
+ .  
+ .  /* parse the --scanflags argument.  It can be a number >=0 or a string consisting of TCP flag names like "URGPSHFIN".  Returns -1 if the argument is invalid. */
+ .  static int parse_scanflags(char *arg) {
+-- line 191 ----------------------------------------
+-- line 216 ----------------------------------------
+ .      if (strcasestr(arg, "ALL"))
+ .        flagval = 255;
+ .      if (strcasestr(arg, "NONE"))
+ .        flagval = 0;
+ .    }
+ .    return flagval;
+ .  }
+ .  
+ 2  static void printusage(int rc) {
+ .  
+ .    printf("%s %s ( %s )\n"
+ .           "Usage: nmap [Scan Type(s)] [Options] {target specification}\n"
+ .           "TARGET SPECIFICATION:\n"
+ .           "  Can pass hostnames, IP addresses, networks, etc.\n"
+ .           "  Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254\n"
+ .           "  -iL <inputfilename>: Input from list of hosts/networks\n"
+ .           "  -iR <num hosts>: Choose random targets\n"
+-- line 232 ----------------------------------------
+-- line 332 ----------------------------------------
+ .           "  --unprivileged: Assume the user lacks raw socket privileges\n"
+ .           "  -V: Print version number\n"
+ .           "  -h: Print this help summary page.\n"
+ .           "EXAMPLES:\n"
+ .           "  nmap -v -A scanme.nmap.org\n"
+ .           "  nmap -v -sn 192.168.0.0/16 10.0.0.0/8\n"
+ .           "  nmap -v -iR 10000 -Pn -p 80\n"
+ .           "SEE THE MAN PAGE (http://nmap.org/book/man.html) FOR MORE OPTIONS AND EXAMPLES\n", NMAP_NAME, NMAP_VERSION, NMAP_URL);
+ 7    exit(rc);
+25,920  => /build/buildd/eglibc-2.19/stdlib/exit.c:exit (1x)
+1,237  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+ .  }
+ .  
+ .  #ifdef WIN32
+ .  static void check_setugid(void) {
+ .  }
+ .  #else
+ .  /* Show a warning when running setuid or setgid, as this allows code execution
+ .     (for example NSE scripts) as the owner/group. */
+-- line 348 ----------------------------------------
+-- line 455 ----------------------------------------
+ .          getpts_simple(DEFAULT_TCP_PROBE_PORT_SPEC, SCAN_TCP_PORT, &ports.syn_ping_ports, &ports.syn_ping_count);
+ .          assert(ports.syn_ping_count > 0);
+ .        }
+ .      }
+ .    }
+ .  #endif
+ .  }
+ .  
+ 2  struct ftpinfo ftp = get_default_ftpinfo();
+61  => /home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap_ftp.cc:get_default_ftpinfo() (1x)
+ .  
+ .  /* A list of targets to be displayed by the --route-dst debugging option. */
+ 5  static std::vector<std::string> route_dst_hosts;
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+ .  
+ .  struct scan_lists ports = { 0 };
+ .  
+ .  /* This struct is used is a temporary storage place that holds options that
+ .     can't be correctly parsed and interpreted before the entire command line has
+ .     been read. Examples are -6 and -S. Trying to set the source address without
+ .     knowing the address family first could result in a failure if you pass an
+ .     IPv6 address and the address family is still IPv4. */
+ .  static struct delayed_options {
+ .  public:
+ .    delayed_options() {
+ 1      this->pre_max_parallelism   = -1;
+ 1      this->pre_scan_delay        = -1;
+ 1      this->pre_max_scan_delay    = -1;
+ 1      this->pre_init_rtt_timeout  = -1;
+ 1      this->pre_min_rtt_timeout   = -1;
+ 1      this->pre_max_rtt_timeout   = -1;
+ 1      this->pre_max_retries       = -1;
+ 1      this->pre_host_timeout      = -1;
+ 1      this->iflist                = false;
+ .    }
+ .  
+ .    // Pre-specified timing parameters.
+ .    // These are stored here during the parsing of the arguments so that we can
+ .    // set the defaults specified by any timing template options (-T2, etc) BEFORE
+ .    // any of these. In other words, these always take precedence over the templates.
+ .    int   pre_max_parallelism, pre_scan_delay, pre_max_scan_delay;
+ .    int   pre_init_rtt_timeout, pre_min_rtt_timeout, pre_max_rtt_timeout;
+-- line 494 ----------------------------------------
+-- line 1557 ----------------------------------------
+ .      if (!o.excludefd)
+ .        fatal("Failed to open exclude file %s for reading", delayed_options.exclude_file);
+ .      free(delayed_options.exclude_file);
+ .    }
+ .    o.exclude_spec = delayed_options.exclude_spec;
+ .  
+ .  }
+ .  
+12  int nmap_main(int argc, char *argv[]) {
+ .    int i;
+ .    std::vector<Target *> Targets;
+ .    time_t now;
+ .    struct hostent *target = NULL;
+ .    time_t timep;
+ .    char mytime[128];
+ .    addrset exclude_group;
+ .  #ifndef NOLUA
+-- line 1573 ----------------------------------------
+-- line 1577 ----------------------------------------
+ .    ScriptResults *script_scan_results = NULL;
+ .  #endif
+ .    unsigned int ideal_scan_group_sz = 0;
+ .    Target *currenths;
+ .    char myname[MAXHOSTNAMELEN + 1];
+ .    int sourceaddrwarning = 0; /* Have we warned them yet about unguessable
+ .                                  source addresses? */
+ .    unsigned int targetno;
+12    char hostname[MAXHOSTNAMELEN + 1] = "";
+ .    struct sockaddr_storage ss;
+ .    size_t sslen;
+ .  
+ 8    now = time(NULL);
+1,300  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+ 3  => ???:0x000000003805106d (1x)
+ 8    local_time = localtime(&now);
+11,475  => /build/buildd/eglibc-2.19/time/localtime.c:localtime (1x)
+1,312  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+ .  
+ 3    if (o.debugging)
+ .      nbase_set_log(fatal, error);
+ .    else
+ 3      nbase_set_log(fatal, NULL);
+ 9  => /home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nbase/nbase_addrset.c:nbase_set_log (1x)
+ .  
+ 2    if (argc < 2)
+ 2      printusage(-1);
+66,509  => nmap.cc:printusage(int) (1x)
+ .  
+ .    Targets.reserve(100);
+ .  #ifdef WIN32
+ .    win_pre_init();
+ .  #endif
+ .  
+ .    parse_options(argc, argv);
+ .  
+-- line 1606 ----------------------------------------
+-- line 3088 ----------------------------------------
+ .    for (i = 0; i < with.size(); i++)
+ .      log_write(LOG_STDOUT, " %s", with[i].c_str());
+ .    log_write(LOG_STDOUT, "\n");
+ .    log_write(LOG_STDOUT, "Compiled without:");
+ .    for (i = 0; i < without.size(); i++)
+ .      log_write(LOG_STDOUT, " %s", without[i].c_str());
+ .    log_write(LOG_STDOUT, "\n");
+ .    log_write(LOG_STDOUT, "Available nsock engines: %s\n", nsock_list_engines());
+ 3  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: portlist.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 937 ----------------------------------------
+ .            ports[allportidx] = ports[earlyreplidx];
+ .            ports[earlyreplidx] = pop_ports[popportidx];
+ .          }
+ .          earlyreplidx++;
+ .          break;
+ .        }
+ .      }
+ .    }
+ 2  }
+ .  
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: timing.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 768 ----------------------------------------
+ .        xml_attribute("extrainfo", "%s", additional_info);
+ .      }
+ .      log_write(LOG_STDOUT, "\n");
+ .      xml_close_empty_tag();
+ .      xml_newline();
+ .    }
+ .    log_flush(LOG_STDOUT|LOG_XML);
+ .    return true;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8/bits/stl_tree.h
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 439 ----------------------------------------
+  .          struct _Rb_tree_impl : public _Node_allocator
+  .          {
+  .  	  _Key_compare		_M_key_compare;
+  .  	  _Rb_tree_node_base 	_M_header;
+  .  	  size_type 		_M_node_count; // Keeps track of size of tree.
+  .  
+  .  	  _Rb_tree_impl()
+  .  	  : _Node_allocator(), _M_key_compare(), _M_header(),
+ 21  	    _M_node_count(0)
+  .  	  { _M_initialize(); }
+  .  
+  .  	  _Rb_tree_impl(const _Key_compare& __comp, const _Node_allocator& __a)
+  .  	  : _Node_allocator(__a), _M_key_compare(__comp), _M_header(),
+  .  	    _M_node_count(0)
+  .  	  { _M_initialize(); }
+  .  
+  .  #if __cplusplus >= 201103L
+-- line 455 ----------------------------------------
+-- line 460 ----------------------------------------
+  .  #endif
+  .  
+  .  	private:
+  .  	  void
+  .  	  _M_initialize()
+  .  	  {
+  .  	    this->_M_header._M_color = _S_red;
+  .  	    this->_M_header._M_parent = 0;
+ 46  	    this->_M_header._M_left = &this->_M_header;
+  7  	    this->_M_header._M_right = &this->_M_header;
+  .  	  }	    
+  .  	};
+  .  
+  .        _Rb_tree_impl<_Compare> _M_impl;
+  .  
+  .      protected:
+  .        _Base_ptr&
+  .        _M_root()
+-- line 477 ----------------------------------------
+-- line 663 ----------------------------------------
+  .  	  }
+  .        }
+  .  
+  .  #if __cplusplus >= 201103L
+  .        _Rb_tree(_Rb_tree&& __x);
+  .  #endif
+  .  
+  .        ~_Rb_tree() _GLIBCXX_NOEXCEPT
+ 14        { _M_erase(_M_begin()); }
+ 28  => /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<std::string, std::pair<std::string const, std::string>, std::_Select1st<std::pair<std::string const, std::string> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, std::string> >*) (2x)
+  .  
+  .        _Rb_tree&
+  .        operator=(const _Rb_tree& __x);
+  .  
+  .        // Accessors.
+  .        _Compare
+  .        key_comp() const
+  .        { return _M_impl._M_key_compare; }
+-- line 679 ----------------------------------------
+-- line 870 ----------------------------------------
+  .  
+  .        const_iterator
+  .        find(const key_type& __k) const;
+  .  
+  .        size_type
+  .        count(const key_type& __k) const;
+  .  
+  .        iterator
+ 36        lower_bound(const key_type& __k)
+  .        { return _M_lower_bound(_M_begin(), _M_end(), __k); }
+  .  
+  .        const_iterator
+  .        lower_bound(const key_type& __k) const
+  .        { return _M_lower_bound(_M_begin(), _M_end(), __k); }
+  .  
+  .        iterator
+  .        upper_bound(const key_type& __k)
+-- line 886 ----------------------------------------
+-- line 1013 ----------------------------------------
+  .  #if __cplusplus >= 201103L
+  .      _M_insert_(_Base_ptr __x, _Base_ptr __p, _Arg&& __v)
+  .  #else
+  .      _M_insert_(_Base_ptr __x, _Base_ptr __p, const _Val& __v)
+  .  #endif
+  .      {
+  .        bool __insert_left = (__x != 0 || __p == _M_end()
+  .  			    || _M_impl._M_key_compare(_KeyOfValue()(__v),
+329  						      _S_key(__p)));
+  .  
+  .        _Link_type __z = _M_create_node(_GLIBCXX_FORWARD(_Arg, __v));
+  .  
+189        _Rb_tree_insert_and_rebalance(__insert_left, __z, __p,
+2,840  => ???:std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&) (37x)
+1,791  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+ 37  				    this->_M_impl._M_header);
+ 37        ++_M_impl._M_node_count;
+  .        return iterator(__z);
+  .      }
+  .  
+  .    template<typename _Key, typename _Val, typename _KeyOfValue,
+  .             typename _Compare, typename _Alloc>
+  .  #if __cplusplus >= 201103L
+  .      template<typename _Arg>
+  .  #endif
+-- line 1035 ----------------------------------------
+-- line 1111 ----------------------------------------
+  .  	  __throw_exception_again;
+  .  	}
+  .        return __top;
+  .      }
+  .  
+  .    template<typename _Key, typename _Val, typename _KeyOfValue,
+  .             typename _Compare, typename _Alloc>
+  .      void
+224      _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::
+ 37      _M_erase(_Link_type __x)
+  .      {
+  .        // Erase without rebalancing.
+187        while (__x != 0)
+  .  	{
+111  	  _M_erase(_S_right(__x));
+6,045  => /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<reason_codes, std::pair<reason_codes const, reason_string>, std::_Select1st<std::pair<reason_codes const, reason_string> >, std::less<reason_codes>, std::allocator<std::pair<reason_codes const, reason_string> > >::_M_erase(std::_Rb_tree_node<std::pair<reason_codes const, reason_string> >*)'2 (4x)
+  .  	  _Link_type __y = _S_left(__x);
+  .  	  _M_destroy_node(__x);
+ 18  	  __x = __y;
+  .  	}
+180      }
+  .  
+  .    template<typename _Key, typename _Val, typename _KeyOfValue,
+  .             typename _Compare, typename _Alloc>
+  .      typename _Rb_tree<_Key, _Val, _KeyOfValue,
+  .  		      _Compare, _Alloc>::iterator
+  .      _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::
+207      _M_lower_bound(_Link_type __x, _Link_type __y,
+  .  		   const _Key& __k)
+  .      {
+486        while (__x != 0)
+415  	if (!_M_impl._M_key_compare(_S_key(__x), __k))
+  .  	  __y = __x, __x = _S_left(__x);
+  .  	else
+  .  	  __x = _S_right(__x);
+  .        return iterator(__y);
+  .      }
+  .  
+  .    template<typename _Key, typename _Val, typename _KeyOfValue,
+  .             typename _Compare, typename _Alloc>
+-- line 1149 ----------------------------------------
+-- line 1306 ----------------------------------------
+  .      }
+  .  
+  .    template<typename _Key, typename _Val, typename _KeyOfValue,
+  .             typename _Compare, typename _Alloc>
+  .      pair<typename _Rb_tree<_Key, _Val, _KeyOfValue,
+  .  			   _Compare, _Alloc>::_Base_ptr,
+  .  	 typename _Rb_tree<_Key, _Val, _KeyOfValue,
+  .  			   _Compare, _Alloc>::_Base_ptr>
+  4      _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::
+  1      _M_get_insert_unique_pos(const key_type& __k)
+  .      {
+  .        typedef pair<_Base_ptr, _Base_ptr> _Res;
+  .        _Link_type __x = _M_begin();
+  2        _Link_type __y = _M_end();
+  .        bool __comp = true;
+  2        while (__x != 0)
+  .  	{
+  .  	  __y = __x;
+  .  	  __comp = _M_impl._M_key_compare(__k, _S_key(__x));
+  .  	  __x = __comp ? _S_left(__x) : _S_right(__x);
+  .  	}
+  .        iterator __j = iterator(__y);
+  .        if (__comp)
+  .  	{
+  2  	  if (__j == begin())
+  2  	    return _Res(__x, __y);
+  .  	  else
+  .  	    --__j;
+  .  	}
+  .        if (_M_impl._M_key_compare(_S_key(__j._M_node), __k))
+  .  	return _Res(__x, __y);
+  .        return _Res(__j._M_node, 0);
+  4      }
+  .  
+  .    template<typename _Key, typename _Val, typename _KeyOfValue,
+  .             typename _Compare, typename _Alloc>
+  .      pair<typename _Rb_tree<_Key, _Val, _KeyOfValue,
+  .  			   _Compare, _Alloc>::_Base_ptr,
+  .  	 typename _Rb_tree<_Key, _Val, _KeyOfValue,
+  .  			   _Compare, _Alloc>::_Base_ptr>
+  .      _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::
+-- line 1346 ----------------------------------------
+-- line 1403 ----------------------------------------
+  .      }
+  .  
+  .    template<typename _Key, typename _Val, typename _KeyOfValue,
+  .             typename _Compare, typename _Alloc>
+  .      pair<typename _Rb_tree<_Key, _Val, _KeyOfValue,
+  .  			   _Compare, _Alloc>::_Base_ptr,
+  .           typename _Rb_tree<_Key, _Val, _KeyOfValue,
+  .  			   _Compare, _Alloc>::_Base_ptr>
+296      _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::
+  .      _M_get_insert_hint_unique_pos(const_iterator __position,
+  .  				  const key_type& __k)
+  .      {
+  .        iterator __pos = __position._M_const_cast();
+  .        typedef pair<_Base_ptr, _Base_ptr> _Res;
+  .  
+  .        // end()
+111        if (__pos._M_node == _M_end())
+  .  	{
+182  	  if (size() > 0
+ 36  	      && _M_impl._M_key_compare(_S_key(_M_rightmost()), __k))
+ 72  	    return _Res(0, _M_rightmost());
+  .  	  else
+  .  	    return _M_get_insert_unique_pos(__k);
+  .  	}
+  .        else if (_M_impl._M_key_compare(__k, _S_key(__pos._M_node)))
+  .  	{
+  .  	  // First, try before...
+  .  	  iterator __before = __pos;
+  .  	  if (__pos._M_node == _M_leftmost()) // begin()
+-- line 1431 ----------------------------------------
+-- line 1433 ----------------------------------------
+  .  	  else if (_M_impl._M_key_compare(_S_key((--__before)._M_node), __k))
+  .  	    {
+  .  	      if (_S_right(__before._M_node) == 0)
+  .  		return _Res(0, __before._M_node);
+  .  	      else
+  .  		return _Res(__pos._M_node, __pos._M_node);
+  .  	    }
+  .  	  else
+  3  	    return _M_get_insert_unique_pos(__k);
+ 17  => /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<reason_codes, std::pair<reason_codes const, reason_string>, std::_Select1st<std::pair<reason_codes const, reason_string> >, std::less<reason_codes>, std::allocator<std::pair<reason_codes const, reason_string> > >::_M_get_insert_unique_pos(reason_codes const&) (1x)
+  .  	}
+  .        else if (_M_impl._M_key_compare(_S_key(__pos._M_node), __k))
+  .  	{
+  .  	  // ... then try after.
+  .  	  iterator __after = __pos;
+  .  	  if (__pos._M_node == _M_rightmost())
+  .  	    return _Res(0, _M_rightmost());
+  .  	  else if (_M_impl._M_key_compare(__k, _S_key((++__after)._M_node)))
+-- line 1449 ----------------------------------------
+-- line 1454 ----------------------------------------
+  .  		return _Res(__after._M_node, __after._M_node);
+  .  	    }
+  .  	  else
+  .  	    return _M_get_insert_unique_pos(__k);
+  .  	}
+  .        else
+  .  	// Equivalent keys.
+  .  	return _Res(__pos._M_node, 0);
+222      }
+  .  
+  .    template<typename _Key, typename _Val, typename _KeyOfValue,
+  .             typename _Compare, typename _Alloc>
+  .  #if __cplusplus >= 201103L
+  .      template<typename _Arg>
+  .  #endif
+  .      typename _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::iterator
+  .      _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::
+  .  #if __cplusplus >= 201103L
+  .      _M_insert_unique_(const_iterator __position, _Arg&& __v)
+  .  #else
+  .      _M_insert_unique_(const_iterator __position, const _Val& __v)
+  .  #endif
+  .      {
+  .        pair<_Base_ptr, _Base_ptr> __res
+184  	= _M_get_insert_hint_unique_pos(__position, _KeyOfValue()(__v));
+939  => /usr/include/c++/4.8/bits/stl_tree.h:std::_Rb_tree<reason_codes, std::pair<reason_codes const, reason_string>, std::_Select1st<std::pair<reason_codes const, reason_string> >, std::less<reason_codes>, std::allocator<std::pair<reason_codes const, reason_string> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<reason_codes const, reason_string> >, reason_codes const&) (37x)
+  .  
+ 74        if (__res.second)
+  .  	return _M_insert_(__res.first, __res.second,
+  .  			  _GLIBCXX_FORWARD(_Arg, __v));
+  .        return iterator(static_cast<_Link_type>(__res.first));
+  .      }
+  .  
+  .    template<typename _Key, typename _Val, typename _KeyOfValue,
+  .             typename _Compare, typename _Alloc>
+  .      pair<typename _Rb_tree<_Key, _Val, _KeyOfValue,
+-- line 1488 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nse_dnet.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 360 ----------------------------------------
+ .    lua_pushcclosure(L, close_eth, 4);
+ .    lua_setfield(L, top+2, "__gc");
+ .  
+ .    luaL_newlibtable(L, l_dnet); /* external interface */
+ .    for (i = top+1; i < top+1+4; i++) lua_pushvalue(L, i);
+ .    luaL_setfuncs(L, l_dnet, 4);
+ .  
+ .    return 1;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: osscan2.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 3720 ----------------------------------------
+ .    if (ip6_targets.size() > 0)
+ .        res6 = this->os_scan_ipv6(ip6_targets);
+ .  
+ .    /* If both scans were successful, return OK */
+ .    if (res4 == OP_SUCCESS && res6 == OP_SUCCESS)
+ .      return OP_SUCCESS;
+ .    else
+ .      return OP_FAILURE;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8/bits/stl_list.h
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 370 ----------------------------------------
+  .        {
+  .  	_M_init();
+  .  	__detail::_List_node_base::swap(_M_impl._M_node, __x._M_impl._M_node);
+  .        }
+  .  #endif
+  .  
+  .        // This is what actually destroys the list.
+  .        ~_List_base() _GLIBCXX_NOEXCEPT
+  1        { _M_clear(); }
+ 14  => /usr/include/c++/4.8/bits/list.tcc:std::_List_base<ScriptResult, std::allocator<ScriptResult> >::_M_clear() (1x)
+  .  
+  .        void
+  .        _M_clear();
+  .  
+  .        void
+  .        _M_init()
+  .        {
+263          this->_M_impl._M_node._M_next = &this->_M_impl._M_node;
+519          this->_M_impl._M_node._M_prev = &this->_M_impl._M_node;
+  .        }
+  .      };
+  .  
+  .    /**
+  .     *  @brief A standard container with linear time access to elements,
+  .     *  and fixed time insertion/deletion at any point in the sequence.
+  .     *
+  .     *  @ingroup sequences
+-- line 395 ----------------------------------------
+-- line 430 ----------------------------------------
+  .     *  is actually circular; a link exists between A and D.  The %list
+  .     *  class holds (as its only data member) a private list::iterator
+  .     *  pointing to @e D, not to @e A!  To get to the head of the %list,
+  .     *  we start at the tail and move forward by one.  When this member
+  .     *  iterator's next/previous pointers refer to itself, the %list is
+  .     *  %empty. 
+  .    */
+  .    template<typename _Tp, typename _Alloc = std::allocator<_Tp> >
+ 46      class list : protected _List_base<_Tp, _Alloc>
+  .      {
+  .        // concept requirements
+  .        typedef typename _Alloc::value_type                _Alloc_value_type;
+  .        __glibcxx_class_requires(_Tp, _SGIAssignableConcept)
+  .        __glibcxx_class_requires2(_Tp, _Alloc_value_type, _SameTypeConcept)
+  .  
+  .        typedef _List_base<_Tp, _Alloc>                    _Base;
+  .        typedef typename _Base::_Tp_alloc_type		 _Tp_alloc_type;
+-- line 446 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nse_fs.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 314 ----------------------------------------
+ .    {NULL, NULL},
+ .  };
+ .  
+ .  LUALIB_API int luaopen_lfs(lua_State *L) {
+ .    dir_create_meta (L);
+ .    luaL_register (L, "lfs", fslib);
+ .    set_info (L);
+ .    return 1;
+ 2  }
+ .  
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: utils.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 552 ----------------------------------------
+ .  #ifdef MAP_FAILED
+ .    if (fileptr == (void *)MAP_FAILED) return NULL;
+ .  #else
+ .    if (fileptr == (char *) - 1) return NULL;
+ .  #endif
+ .  
+ .    *length = st.st_size;
+ .    return fileptr;
+ 2  }
+ .  #else /* WIN32 */
+ .  /* FIXME:  From the looks of it, this function can only handle one mmaped file
+ .     at a time (note how gmap is used). */
+ .  /* I believe this was written by Ryan Permeh (ryan@eeye.com). */
+ .  
+ .  static HANDLE gmap = NULL;
+ .  
+ .  char *mmapfile(char *fname, int *length, int openflags) {
+-- line 568 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: service_scan.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 2754 ----------------------------------------
+ .    // Yeah - done with the service scan.  Now I go through the results
+ .    // discovered, store the important info away, and free up everything
+ .    // else.
+ .    processResults(SG);
+ .  
+ .    delete SG;
+ .  
+ .    return 0;
+ 2  }
+ .  
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8/bits/stl_vector.h
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 79 ----------------------------------------
+ .        struct _Vector_impl 
+ .        : public _Tp_alloc_type
+ .        {
+ .  	pointer _M_start;
+ .  	pointer _M_finish;
+ .  	pointer _M_end_of_storage;
+ .  
+ .  	_Vector_impl()
+15  	: _Tp_alloc_type(), _M_start(0), _M_finish(0), _M_end_of_storage(0)
+ .  	{ }
+ .  
+ .  	_Vector_impl(_Tp_alloc_type const& __a)
+ .  	: _Tp_alloc_type(__a), _M_start(0), _M_finish(0), _M_end_of_storage(0)
+ .  	{ }
+ .  
+ .  #if __cplusplus >= 201103L
+ .  	_Vector_impl(_Tp_alloc_type&& __a)
+-- line 95 ----------------------------------------
+-- line 153 ----------------------------------------
+ .  	    size_t __n = __x._M_impl._M_finish - __x._M_impl._M_start;
+ .  	    _M_create_storage(__n);
+ .  	  }
+ .        }
+ .  #endif
+ .  
+ .        ~_Vector_base()
+ .        { _M_deallocate(this->_M_impl._M_start, this->_M_impl._M_end_of_storage
+ 1  		      - this->_M_impl._M_start); }
+ .  
+ .      public:
+ .        _Vector_impl _M_impl;
+ .  
+ .        pointer
+ .        _M_allocate(size_t __n)
+ .        { return __n != 0 ? _M_impl.allocate(__n) : 0; }
+ .  
+ .        void
+ .        _M_deallocate(pointer __p, size_t __n)
+ .        {
+ 8  	if (__p)
+ .  	  _M_impl.deallocate(__p, __n);
+ .        }
+ .  
+ .      private:
+ .        void
+ .        _M_create_storage(size_t __n)
+ .        {
+ .  	this->_M_impl._M_start = this->_M_allocate(__n);
+-- line 181 ----------------------------------------
+-- line 406 ----------------------------------------
+ .  #endif
+ .  
+ .        /**
+ .         *  The dtor only erases the elements, and note that if the
+ .         *  elements themselves are pointers, the pointed-to memory is
+ .         *  not touched in any way.  Managing the pointer is the user's
+ .         *  responsibility.
+ .         */
+ 5        ~vector() _GLIBCXX_NOEXCEPT
+ .        { std::_Destroy(this->_M_impl._M_start, this->_M_impl._M_finish,
+14  		      _M_get_Tp_allocator()); }
+ .  
+ .        /**
+ .         *  @brief  %Vector assignment operator.
+ .         *  @param  __x  A %vector of identical element and allocator types.
+ .         *
+ .         *  All the elements of @a __x are copied, but any extra memory in
+ .         *  @a __x (for fast expansion) will not be copied.  Unlike the
+ .         *  copy constructor, the allocator object is not copied.
+-- line 424 ----------------------------------------
+-- line 1118 ----------------------------------------
+ .        /**
+ .         *  Erases all the elements.  Note that this function only erases the
+ .         *  elements, and that if the elements themselves are pointers, the
+ .         *  pointed-to memory is not touched in any way.  Managing the pointer is
+ .         *  the user's responsibility.
+ .         */
+ .        void
+ .        clear() _GLIBCXX_NOEXCEPT
+ 1        { _M_erase_at_end(this->_M_impl._M_start); }
+ .  
+ .      protected:
+ .        /**
+ .         *  Memory expansion handler.  Uses the member allocation function to
+ .         *  obtain @a n bytes of memory, and then copies [first,last) into it.
+ .         */
+ .        template<typename _ForwardIterator>
+ .          pointer
+-- line 1134 ----------------------------------------
+-- line 1344 ----------------------------------------
+ .  
+ .        // Internal erase functions follow.
+ .  
+ .        // Called by erase(q1,q2), clear(), resize(), _M_fill_assign,
+ .        // _M_assign_aux.
+ .        void
+ .        _M_erase_at_end(pointer __pos)
+ .        {
+ 1  	std::_Destroy(__pos, this->_M_impl._M_finish, _M_get_Tp_allocator());
+ 1  	this->_M_impl._M_finish = __pos;
+ .        }
+ .  
+ .  #if __cplusplus >= 201103L
+ .      private:
+ .        // Constant-time move assignment when source object's memory can be
+ .        // moved, either because the source's allocator will move too
+ .        // or because the allocators are equal.
+ .        void
+-- line 1361 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: xml.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 184 ----------------------------------------
+ .  #include "output.h"
+ .  #include "xml.h"
+ .  
+ .  #include <assert.h>
+ .  #include <stdarg.h>
+ .  #include <stdio.h>
+ .  #include <list>
+ .  
+ 8  struct xml_writer {
+ .    /* Sanity checking: Don't open a new tag while still defining
+ .       attributes for another, like "<elem1<elem2". */
+ .    bool tag_open;
+ .    /* Has the root element been started yet? If so, and if
+ .       element_stack.size() == 0, then the document is finished. */
+ .    bool root_written;
+ .    std::list<const char *> element_stack;
+ .  };
+ .  
+ 5  static struct xml_writer xml;
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+ .  
+ .  /* Escape a string for inclusion in XML. This gets <>&, "' for attribute
+ .     values, -- for inside comments, and characters with value > 0x7F. It
+ .     also gets control characters with value < 0x20 to avoid parser
+ .     normalization of \r\n\t in attribute values. If this is not desired
+ .     in some cases, we'll have to add a parameter to control this. */
+ .  static char *escape(const char *str) {
+ .    /* result is the result buffer; n + 1 is the allocated size. Double the
+-- line 210 ----------------------------------------
+-- line 450 ----------------------------------------
+ .  /* Return true iff a root element has been started. */
+ .  bool xml_tag_open() {
+ .    return xml.tag_open;
+ .  }
+ .  
+ .  /* Return true iff a root element has been started. */
+ .  bool xml_root_written() {
+ .    return xml.root_written;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/x86_64-linux-gnu/bits/string3.h
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 76 ----------------------------------------
+ .  __NTH (memset (void *__dest, int __ch, size_t __len))
+ .  {
+ .    if (__builtin_constant_p (__len) && __len == 0
+ .        && (!__builtin_constant_p (__ch) || __ch != 0))
+ .      {
+ .        __warn_memset_zero_len ();
+ .        return __dest;
+ .      }
+41    return __builtin___memset_chk (__dest, __ch, __len, __bos0 (__dest));
+ .  }
+ .  
+ .  #ifdef __USE_BSD
+ .  __fortify_function void
+ .  __NTH (bcopy (const void *__src, void *__dest, size_t __len))
+ .  {
+ .    (void) __builtin___memmove_chk (__dest, __src, __len, __bos0 (__dest));
+ .  }
+-- line 92 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nse_nsock.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 1096 ----------------------------------------
+ .    nsp_ssl_init_max_speed(nsp);
+ .  #endif
+ .  
+ .    luaL_newlibtable(L, l_nsock);
+ .    for (i = top+1; i < top+1+6; i++) lua_pushvalue(L, i);
+ .    luaL_setfuncs(L, l_nsock, 6);
+ .  
+ .    return 1;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nbase/nbase_rnd.c
+--------------------------------------------------------------------------------
+   Ir 
+
+-- line 156 ----------------------------------------
+    .  
+    .    /* Mix entropy in buf with s[]...
+    .     *
+    .     * This is the ARC4 key-schedule.  It is rather poor and doesn't mix
+    .     * the key in very well.  This causes a bias at the start of the stream.
+    .     * To eliminate most of this bias, the first N bytes of the stream should
+    .     * be dropped.
+    .     */
+    4    rand->i--;
+1,542    for (i = 0; i < 256; i++) {
+    2      rand->i = (rand->i + 1);
+1,024      si = rand->s[rand->i];
+3,328      rand->j = (rand->j + si + buf[i % len]);
+1,536      rand->s[rand->i] = rand->s[rand->j];
+  512      rand->s[rand->j] = si;
+    .    }
+    2    rand->j = rand->i;
+    .  }
+    .  
+    .  static u8 nrand_getbyte(nrand_h *r) {
+    .    u8 si, sj;
+    .  
+    .    /* This is the core of ARC4 and provides the pseudo-randomness */
+   12    r->i = (r->i + 1);
+4,104    si = r->s[r->i];
+1,038    r->j = (r->j + si);
+2,056    sj = r->s[r->j];
+1,028    r->s[r->i] = sj; /* The start of the the swap */
+1,028    r->s[r->j] = si; /* The other half of the swap */
+2,060    return (r->s[(si + sj) & 0xff]);
+    .  }
+    .  
+    .  int nrand_get(nrand_h *r, void *buf, size_t len) {
+    .    u8 *p;
+    .    size_t i;
+    .  
+    .    /* Hand out however many bytes were asked for */
+2,078    for (p = buf, i = 0; i < len; i++) {
+2,052      p[i] = nrand_getbyte(r);
+    .    }
+    .    return (0);
+    .  }
+    .  
+   11  void nrand_init(nrand_h *r) {
+    .    u8 seed[256]; /* Starts out with "random" stack data */
+    .    int i;
+    .  
+    .    /* Gather seed entropy with best the OS has to offer */
+    .  #ifdef WIN32
+    .    HCRYPTPROV hcrypt = 0;
+    .  
+    .    CryptAcquireContext(&hcrypt, NULL, NULL, PROV_RSA_FULL, CRYPT_VERIFYCONTEXT);
+    .    CryptGenRandom(hcrypt, sizeof(seed), seed);
+    .    CryptReleaseContext(hcrypt, 0);
+    .  #else
+    .    struct timeval *tv = (struct timeval *)seed;
+    .    int *pid = (int *)(seed + sizeof(*tv));
+    .    int fd;
+    .  
+    8    gettimeofday(tv, NULL); /* fill lowest seed[] with time */
+1,446  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+    3  => ???:0x0000000038051063 (1x)
+    7    *pid = getpid();        /* fill next lowest seed[] with pid */
+   18  => /build/buildd/eglibc-2.19/posix/../nptl/sysdeps/unix/sysv/linux/getpid.c:getpid (1x)
+1,259  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+    .  
+    .    /* Try to fill the rest of the state with OS provided entropy */
+    8    if ((fd = open("/dev/urandom", O_RDONLY)) != -1 ||
+1,433  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+    3  => /build/buildd/eglibc-2.19/csu/errno-loc.c:__errno_location (1x)
+    .        (fd = open("/dev/arandom", O_RDONLY)) != -1) {
+    .      ssize_t n;
+    .      do {
+    1        errno = 0;
+    .        n = read(fd, seed + sizeof(*tv) + sizeof(*pid),
+    .                 sizeof(seed) - sizeof(*tv) - sizeof(*pid));
+    2      } while (n < 0 && errno == EINTR);
+    7      close(fd);
+    7  => /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:close (1x)
+1,259  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+    .    }
+    .  #endif
+    .  
+    .    /* Fill up our handle with starter values */
+1,024    for (i = 0; i < 256; i++) { r->s[i] = i; };
+    1    r->i = r->j = 0;
+    .  
+    .    nrand_addrandom(r, seed, 128); /* lower half of seed data for entropy */
+    .    nrand_addrandom(r, seed + 128, 128); /* Now use upper half */
+    1    r->tmp = NULL;
+    3    r->tmplen = 0;
+    .  
+    .    /* This stream will start biased.  Get rid of 1K of the stream */
+    .    nrand_get(r, seed, 256); nrand_get(r, seed, 256);
+    .    nrand_get(r, seed, 256); nrand_get(r, seed, 256);
+   11  }
+    .  
+    3  int get_random_bytes(void *buf, int numbytes) {
+    .    static nrand_h state;
+    .    static int state_init = 0;
+    .  
+    .    /* Initialize if we need to */
+    3    if (!state_init) {
+    3      nrand_init(&state);
+32,338  => nbase/nbase_rnd.c:nrand_init (1x)
+    3      state_init = 1;
+    .    }
+    .  
+    .    /* Now fill our buffer */
+    1    nrand_get(&state, buf, numbytes);
+    .  
+    .    return 0;
+    4  }
+    .  
+    .  int get_random_int() {
+    .    int i;
+    .    get_random_bytes(&i, sizeof(int));
+    .    return i;
+    .  }
+    .  
+    1  unsigned int get_random_uint() {
+    .    unsigned int i;
+    3    get_random_bytes(&i, sizeof(unsigned int));
+32,435  => nbase/nbase_rnd.c:get_random_bytes (1x)
+    .    return i;
+    3  }
+    .  
+    .  u64 get_random_u64() {
+    .    u64 i;
+    .    get_random_bytes(&i, sizeof(i));
+    .    return i;
+    .  }
+    .  
+    .  
+-- line 279 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: osscan.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 1295 ----------------------------------------
+ .  
+ .    if (nmap_fetchfile(filename, sizeof(filename), dbname) != 1) {
+ .      fatal("OS scan requested but I cannot find %s file.  It should be in %s, ~/.nmap/ or .", dbname, NMAPDATADIR);
+ .    }
+ .    /* Record where this data file was found. */
+ .    o.loaded_data_files[dbname] = filename;
+ .  
+ .    return parse_fingerprint_file(filename);
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: tcpip.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 2164 ----------------------------------------
+ .    }
+ .  
+ .    /* Didn't find anything */
+ .    if (timestamp)
+ .      *timestamp = 0;
+ .    if (echots)
+ .      *echots = 0;
+ .    return 0;
+ 3  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: FingerPrintResults.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 324 ----------------------------------------
+ .          strnulleq(OSC->OS_Generation, OSR.OSC[i]->OS_Generation)) {
+ .      // Found a duplicate!
+ .      return true;
+ .      }
+ .    }
+ .  
+ .    // Went through all the results -- no duplicates found
+ .    return false;
+ 2  }
+ .  
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/x86_64-linux-gnu/bits/fcntl2.h
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 45 ----------------------------------------
+ .  
+ .    if (__builtin_constant_p (__oflag))
+ .      {
+ .        if ((__oflag & O_CREAT) != 0 && __va_arg_pack_len () < 1)
+ .  	{
+ .  	  __open_missing_mode ();
+ .  	  return __open_2 (__path, __oflag);
+ .  	}
+10        return __open_alias (__path, __oflag, __va_arg_pack ());
+1,228  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+ 7  => /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:open (1x)
+ .      }
+ .  
+ .    if (__va_arg_pack_len () < 1)
+ .      return __open_2 (__path, __oflag);
+ .  
+ .    return __open_alias (__path, __oflag, __va_arg_pack ());
+ .  }
+ .  
+-- line 61 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: MACLookup.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 132 ----------------------------------------
+ .  /* Character pool memory allocation */
+ .  #include "MACLookup.h"
+ .  #include "NmapOps.h"
+ .  #include "nmap_error.h"
+ .  #include "charpool.h"
+ .  
+ .  extern NmapOps o;
+ .  
+ 5  std::map<int, char *> MacTable;
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+ .  
+ .  static inline int MacCharPrefix2Key(const u8 *prefix) {
+ .    return (prefix[0] << 16) + (prefix[1] << 8) + prefix[2];
+ .  }
+ .  
+ .  static void mac_prefix_init() {
+ .    static int initialized = 0;
+ .    if (initialized) return;
+-- line 148 ----------------------------------------
+-- line 240 ----------------------------------------
+ .      if (strcasestr(i->second, vendorstr)) {
+ .        mac_data[0] = i->first >> 16;
+ .        mac_data[1] = (i->first >> 8) & 0xFF;
+ .        mac_data[2] = i->first & 0xFF;
+ .        return true;
+ .      }
+ .    }
+ .    return false;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nse_nmaplib.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 966 ----------------------------------------
+ .    lua_getfield(L, -1, "get_interface_info");
+ .    lua_setfield(L, nmap_idx, "get_interface_info");
+ .    /* Store nmap.socket. */
+ .    lua_setfield(L, nmap_idx, "dnet");
+ .  
+ .    lua_settop(L, nmap_idx);
+ .  
+ .    return 1;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nmap_dns.cc
+--------------------------------------------------------------------------------
+   Ir 
+
+-- line 302 ----------------------------------------
+    .    std::string name;
+    .    u32 addr;
+    .    u8 cache_hits;
+    .  };
+    .  
+    .  
+    .  //------------------- Globals ---------------------
+    .  
+    5  static std::list<dns_server> servs;
+   66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+    5  static std::list<request *> new_reqs;
+   66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+    7  static std::list<request *> cname_reqs;
+   66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+    .  static int total_reqs;
+    .  static nsock_pool dnspool=NULL;
+    .  
+    .  /* The DNS cache, not just for entries from /etc/hosts. */
+1,040  static std::list<host_elem> etchosts[HASH_TABLE_SIZE];
+   66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+    .  
+    .  static int stat_actual, stat_ok, stat_nx, stat_sf, stat_trans, stat_dropped, stat_cname;
+    .  static struct timeval starttv;
+    .  static int read_timeout_index;
+    .  static u16 id_counter;
+    .  
+    .  static int firstrun=1;
+    .  static ScanProgressMeter *SPM;
+-- line 325 ----------------------------------------
+-- line 1383 ----------------------------------------
+    .    assert(o.mass_dns || servs.empty());
+    .  
+    .    std::list<dns_server>::iterator servI;
+    .    std::list<std::string> serverList;
+    .    for(servI = servs.begin(); servI != servs.end(); servI++) {
+    .      serverList.push_back(inet_socktop((struct sockaddr_storage *) &servI->addr));
+    .    }
+    .    return serverList;
+    2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nbase/nbase_addrset.c
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 136 ----------------------------------------
+ .  static void (*log_user)(const char *, ...) = default_log_user;
+ .  
+ .  static void default_log_debug(const char * a, ...){};
+ .  
+ .  static void (*log_debug)(const char *, ...) = default_log_debug;
+ .  
+ .  void nbase_set_log(void (*log_user_func)(const char *, ...),void (*log_debug_func)(const char *, ...)){
+ .      if (log_user_func == NULL)
+ 4          log_user = default_log_user;
+ .      else
+ .          log_user = log_user_func;
+ .      if (log_debug_func == NULL)
+ 5          log_debug = default_log_debug;
+ .      else
+ .          log_debug = log_debug_func;
+ .  }
+ .  
+ .  void addrset_init(struct addrset *set)
+ .  {
+ .      set->head = NULL;
+ .  }
+-- line 156 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8/bits/stl_construct.h
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 94 ----------------------------------------
+ .  
+ .    template<bool>
+ .      struct _Destroy_aux
+ .      {
+ .        template<typename _ForwardIterator>
+ .          static void
+ .          __destroy(_ForwardIterator __first, _ForwardIterator __last)
+ .  	{
+15  	  for (; __first != __last; ++__first)
+ .  	    std::_Destroy(std::__addressof(*__first));
+ .  	}
+ .      };
+ .  
+ .    template<>
+ .      struct _Destroy_aux<true>
+ .      {
+ .        template<typename _ForwardIterator>
+-- line 110 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8/bits/stl_pair.h
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 105 ----------------------------------------
+  .        // 265.  std::pair::pair() effects overly restrictive
+  .        /** The default constructor creates @c first and @c second using their
+  .         *  respective default constructors.  */
+  .        _GLIBCXX_CONSTEXPR pair()
+  .        : first(), second() { }
+  .  
+  .        /** Two objects may be passed to a @c pair constructor to be copied.  */
+  .        _GLIBCXX_CONSTEXPR pair(const _T1& __a, const _T2& __b)
+111        : first(__a), second(__b) { }
+  .  
+  .        /** There is also a templated copy ctor for the @c pair class itself.  */
+  .  #if __cplusplus < 201103L
+  .        template<class _U1, class _U2>
+  .  	pair(const pair<_U1, _U2>& __p)
+  .  	: first(__p.first), second(__p.second) { }
+  .  #else
+  .        template<class _U1, class _U2, class = typename
+-- line 121 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8/iostream
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 66 ----------------------------------------
+  .    extern wistream wcin;		/// Linked to standard input
+  .    extern wostream wcout;	/// Linked to standard output
+  .    extern wostream wcerr;	/// Linked to standard error (unbuffered)
+  .    extern wostream wclog;	/// Linked to standard error (buffered)
+  .  #endif
+  .    //@}
+  .  
+  .    // For construction of filebuffers for cout, cin, cerr, clog et. al.
+296    static ios_base::Init __ioinit;
+ 24  => ???:std::ios_base::Init::Init() (1x)
+ 66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+  .  
+  .  _GLIBCXX_END_NAMESPACE_VERSION
+  .  } // namespace
+  .  
+  .  #endif /* _GLIBCXX_IOSTREAM */
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nse_utility.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 197 ----------------------------------------
+ .               strcmp(lua_tostring(L, -1), "udp") == 0 ? IPPROTO_UDP :
+ .               strcmp(lua_tostring(L, -1), "sctp") == 0 ? IPPROTO_SCTP :
+ .               luaL_error(L, "port 'protocol' field must be \"udp\", \"sctp\" or \"tcp\"");
+ .    while ((p = target->ports.nextPort(p, port, protocol, PORT_UNKNOWN)) != NULL)
+ .      if (p->portno == portno)
+ .        break;
+ .    lua_pop(L, 2);
+ .    return p;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: TargetGroup.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 779 ----------------------------------------
+ .      }
+ .      if (strlen(target) >= 1024) {
+ .        error("ERROR: new target is too long (>= 1024), failed to add it.");
+ .        return 0;
+ .      }
+ .    }
+ .  
+ .    return new_targets->push(target);
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: nmap_tty.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 334 ----------------------------------------
+ .          stats_time = now;
+ .        printStatusMessage();
+ .        /* Instruct the caller to print status too. */
+ .        return true;
+ .      }
+ .    }
+ .  
+ .    return false;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: scan_engine.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 5855 ----------------------------------------
+ .                      (USI.gstats->num_hosts_timedout == 1) ? "host" : "hosts");
+ .      USI.SPM->endTask(NULL, additional_info);
+ .    }
+ .    if (o.debugging)
+ .      USI.log_overall_rates(LOG_STDOUT);
+ .  
+ .    if (o.debugging > 2 && USI.pd != NULL)
+ .      pcap_print_stats(LOG_PLAIN, USI.pd);
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: targets.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 715 ----------------------------------------
+ .  Target *nexthost(HostGroupState *hs, const addrset *exclude_group,
+ .                   struct scan_lists *ports, int pingtype) {
+ .    if (hs->next_batch_no >= hs->current_batch_sz)
+ .      refresh_hostbatch(hs, exclude_group, ports, pingtype);
+ .    if (hs->next_batch_no >= hs->current_batch_sz)
+ .      return NULL;
+ .  
+ .    return hs->hostbatch[hs->next_batch_no++];
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: services.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 162 ----------------------------------------
+ .  bool service_node_ratio_compare(const service_node& a, const service_node& b) {
+ .    return a.ratio > b.ratio;
+ .  }
+ .  
+ .  extern NmapOps o;
+ .  static int numtcpports;
+ .  static int numudpports;
+ .  static int numsctpports;
+ 5  static std::map<port_spec, service_node> service_table;
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+ 5  static std::list<service_node> services_by_ratio;
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+ .  static int services_initialized;
+ .  static int ratio_format; // 0 = /etc/services no-ratio format. 1 = new nmap format
+ .  
+ .  static int nmap_services_init() {
+ .    if (services_initialized) return 0;
+ .  
+ .    char filename[512];
+ .    FILE *fp;
+-- line 179 ----------------------------------------
+-- line 560 ----------------------------------------
+ .  
+ .    if (ports->sctp_count > 1)
+ .      qsort(ports->sctp_ports, ports->sctp_count, sizeof(unsigned short), &port_compare);
+ .  
+ .    if (o.debugging && level < 1)
+ .      log_write(LOG_STDOUT, "PORTS: Using ports open on %g%% or more average hosts (TCP:%d, UDP:%d, SCTP:%d)\n", level*100, ports->tcp_count, ports->udp_count, ports->sctp_count);
+ .    else if (o.debugging && level >= 1)
+ .      log_write(LOG_STDOUT, "PORTS: Using top %d ports found open (TCP:%d, UDP:%d, SCTP:%d)\n", (int) level, ports->tcp_count, ports->udp_count, ports->sctp_count);
+ 2  }
+ .  
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: traceroute.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 217 ----------------------------------------
+ .        return sockaddr_storage_cmp(&addr, &other.addr) < 0;
+ .    }
+ .  };
+ .  
+ .  /* A global random token used to distinguish this traceroute's probes from
+ .     those of other traceroutes possibly running on the same machine. */
+ .  static u16 global_id;
+ .  /* A global cache of known hops, indexed by TTL and address. */
+ 5  static std::map<struct HopIdent, Hop *> hop_cache;
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+ .  /* A list of timedout hops, which are not kept in hop_cache, so we can delete
+ .     all hops on occasion. */
+ 5  static std::list<Hop *> timedout_hops;
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+ .  /* The TTL at which we start sending probes if we don't have a distance
+ .     estimate. This is updated after each host group on the assumption that hosts
+ .     across groups will not differ much in distance. Having this closer to the
+ .     true distance makes the trace faster but is not needed for accuracy. */
+ .  static u8 initial_ttl = 10;
+ .  
+ .  static struct timeval get_now(struct timeval *now = NULL);
+ .  static const char *ss_to_string(const struct sockaddr_storage *ss);
+-- line 236 ----------------------------------------
+-- line 1643 ----------------------------------------
+ .  
+ .    return tv;
+ .  }
+ .  
+ .  /* Convert the address in ss to a string. The result is returned in a static
+ .     buffer so you can't call this twice in arguments to printf, for example. */
+ .  static const char *ss_to_string(const struct sockaddr_storage *ss) {
+ .    return inet_ntop_ez(ss, sizeof(*ss));
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/x86_64-linux-gnu/bits/unistd.h
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 36 ----------------------------------------
+ .    if (__bos0 (__buf) != (size_t) -1)
+ .      {
+ .        if (!__builtin_constant_p (__nbytes))
+ .  	return __read_chk (__fd, __buf, __nbytes, __bos0 (__buf));
+ .  
+ .        if (__nbytes > __bos0 (__buf))
+ .  	return __read_chk_warn (__fd, __buf, __nbytes, __bos0 (__buf));
+ .      }
+12    return __read_alias (__fd, __buf, __nbytes);
+1,236  => /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S:_dl_runtime_resolve (1x)
+ 7  => /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S:read (1x)
+ .  }
+ .  
+ .  #ifdef __USE_UNIX98
+ .  extern ssize_t __pread_chk (int __fd, void *__buf, size_t __nbytes,
+ .  			    __off_t __offset, size_t __bufsize) __wur;
+ .  extern ssize_t __pread64_chk (int __fd, void *__buf, size_t __nbytes,
+ .  			      __off64_t __offset, size_t __bufsize) __wur;
+ .  extern ssize_t __REDIRECT (__pread_alias,
+-- line 52 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: portreasons.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 159 ----------------------------------------
+ .      this->plural = "unknown";
+ .      this->singular = this->plural;
+ .  }
+ .  reason_string::reason_string(const char * singular, const char * plural){
+ .      this->plural = plural;
+ .      this->singular = singular;
+ .  };
+ .  
+ 7  reason_map_type::reason_map_type(){
+ 2      reason_map[ER_RESETPEER] = reason_string("reset","resets");
+ 2      reason_map[ER_CONREFUSED] = reason_string("conn-refused","conn-refused");
+ 2      reason_map[ER_CONACCEPT] = reason_string("syn-ack","syn-acks");
+ .  
+ 2      reason_map[ER_SYNACK] = reason_string("syn-ack","syn-acks");
+ 2      reason_map[ER_SYN] = reason_string("split-handshake-syn","split-handshake-syns");
+ 2      reason_map[ER_UDPRESPONSE] = reason_string("udp-response","udp-responses");
+ 2      reason_map[ER_PROTORESPONSE] = reason_string("proto-response","proto-responses");
+ 2      reason_map[ER_ACCES] = reason_string("perm-denied","perm-denieds");
+ .  
+ .  
+ 2      reason_map[ER_NETUNREACH] = reason_string("net-unreach","net-unreaches");
+ 2      reason_map[ER_HOSTUNREACH] = reason_string("host-unreach","host-unreaches");
+ 2      reason_map[ER_PROTOUNREACH] = reason_string("proto-unreach","proto-unreaches");
+ .  
+ 2      reason_map[ER_PORTUNREACH] = reason_string("port-unreach","port-unreaches");
+ 2      reason_map[ER_ECHOREPLY] = reason_string("echo-reply","echo-replies");
+ .  
+ .  
+ 2      reason_map[ER_DESTUNREACH] = reason_string("dest-unreach","dest-unreaches");
+ 2      reason_map[ER_SOURCEQUENCH] = reason_string("source-quench","source-quenches");
+ 2      reason_map[ER_NETPROHIBITED] = reason_string("net-prohibited","net-prohibiteds");
+ .  
+ 2      reason_map[ER_HOSTPROHIBITED] = reason_string("host-prohibited","host-prohibiteds");
+ 2      reason_map[ER_ADMINPROHIBITED] = reason_string("admin-prohibited","admin-prohibiteds");
+ .  
+ 2      reason_map[ER_TIMEEXCEEDED] = reason_string("time-exceeded","time-exceededs");
+ 2      reason_map[ER_TIMESTAMPREPLY] = reason_string("timestamp-reply","timestamp-replies");
+ .  
+ 2      reason_map[ER_ADDRESSMASKREPLY] = reason_string("addressmask-reply","addressmask-replies");
+ 2      reason_map[ER_NOIPIDCHANGE] = reason_string("no-ipid-change","no-ipid-changes");
+ 2      reason_map[ER_IPIDCHANGE] = reason_string("ipid-change","ipid-changes");
+ .  
+ 2      reason_map[ER_ARPRESPONSE] = reason_string("arp-response","arp-responses");
+ 2      reason_map[ER_NDRESPONSE] = reason_string("nd-response","nd-responses");
+ 2      reason_map[ER_TCPRESPONSE] = reason_string("tcp-response","tcp-responses");
+ 2      reason_map[ER_NORESPONSE] = reason_string("no-response","no-responses");
+ .  
+ 2      reason_map[ER_INITACK] = reason_string("init-ack","init-acks");
+ 2      reason_map[ER_ABORT] = reason_string("abort","aborts");
+ .  
+ 2      reason_map[ER_LOCALHOST] = reason_string("localhost-response","localhost-responses");
+ 2      reason_map[ER_SCRIPT] = reason_string("script-set","script-set");
+ 2      reason_map[ER_UNKNOWN] = reason_string("unknown-response","unknown-responses");
+ 2      reason_map[ER_USER] = reason_string("user-set","user-sets");
+ .  
+ 2      reason_map[ER_NOROUTE] = reason_string("no-route", "no-routes");
+ 2      reason_map[ER_BEYONDSCOPE] = reason_string("beyond-scope", "beyond-scopes");
+ 2      reason_map[ER_REJECTROUTE] = reason_string("reject-route", "reject-routes");
+ 2      reason_map[ER_PARAMPROBLEM] = reason_string("param-problem", "param-problems");
+ 7  }
+ .  
+ .  /* Map holding plural and singular versions of error codes */
+ 7  reason_map_type reason_map;
+66  => /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c:__cxa_atexit (1x)
+77,569  => portreasons.cc:reason_map_type::reason_map_type() (1x)
+ .  
+ .  /* Function to Translate ICMP codes and types to *
+ .   * Reason Codes                  */
+ .  
+ .  static reason_codes icmpv4_to_reason(int icmp_type, int icmp_code) {
+ .  
+ .      switch(icmp_type){
+ .  
+-- line 229 ----------------------------------------
+-- line 556 ----------------------------------------
+ .                  Snprintf(reason, sizeof(reason), "%s", reason_str(r.reason_id, SINGULAR));
+ .          } else {
+ .                  struct sockaddr_storage ss;
+ .                  memcpy(&ss, &r.ip_addr, sizeof(r.ip_addr));
+ .                  Snprintf(reason, sizeof(reason), "%s from %s", reason_str(r.reason_id, SINGULAR),
+ .                          inet_ntop_ez(&ss, sizeof(ss)));
+ .          }
+ .          return reason;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: idle_scan.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 1454 ----------------------------------------
+ .        target->ports.setStateReason(portarray[portidx], IPPROTO_TCP, ER_NOIPIDCHANGE, 0, NULL);
+ .      } else {
+ .        target->ports.setStateReason(portarray[portidx], IPPROTO_TCP, ER_IPIDCHANGE, 0, NULL);
+ .      }
+ .    }
+ .  
+ .    target->stopTimeOutClock(NULL);
+ .    return;
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: main.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 158 ----------------------------------------
+ .  }
+ .  #endif
+ .  
+ .  /* global options */
+ .  extern NmapOps o;  /* option structure */
+ .  
+ .  extern void set_program_name(const char *name);
+ .  
+11  int main(int argc, char *argv[]) {
+ .    /* The "real" main is nmap_main().  This function hijacks control at the
+ .       beginning to do the following:
+ .       3) Check the environment variable NMAP_ARGS.
+ .       2) Check if Nmap was called with --resume.
+ .       3) Resume a previous scan or just call nmap_main.
+ .    */
+ .    char command[2048];
+ .    int myargc;
+ 1    char **myargv = NULL;
+ .    char *cptr;
+ .    int ret;
+ .    int i;
+ .  
+ 2    set_program_name(argv[0]);
+ 2  => /home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap.cc:set_program_name(char const*) (1x)
+ .  
+ .  #ifdef __amigaos__
+ .          if(!OpenLibs()) {
+ .                  error("Couldn't open TCP/IP Stack Library(s)!");
+ .                  exit(20);
+ .          }
+ .          MiamiBPFInit((struct Library *)MiamiBase, (struct Library *)SocketBase);
+ .          MiamiPCapInit((struct Library *)MiamiBase, (struct Library *)SocketBase);
+-- line 188 ----------------------------------------
+-- line 194 ----------------------------------------
+ .    // See http://www.gnu.org/manual/glibc-2.2.5/html_node/Allocation-Debugging.html#Allocation%20Debugging .
+ .    // It only works if the environment variable MALLOC_TRACE is set to a file
+ .    // which a memory usage log will be written to.  After the program quits
+ .    // I can analyze the log via the command 'mtrace [binaryiran] [logfile]'
+ .    // MTRACE should only be defined during debug sessions.
+ .    mtrace();
+ .  #endif
+ .  
+ 5    if ((cptr = getenv("NMAP_ARGS"))) {
+440  => /build/buildd/eglibc-2.19/stdlib/getenv.c:getenv (1x)
+ .      if (Snprintf(command, sizeof(command), "nmap %s", cptr) >= (int) sizeof(command)) {
+ .          error("Warning: NMAP_ARGS variable is too long, truncated");
+ .      }
+ .      /* copy rest of command-line arguments */
+ .      for (i = 1; i < argc && strlen(command) + strlen(argv[i]) + 1 < sizeof(command); i++) {
+ .        strcat(command, " ");
+ .        strcat(command, argv[i]);
+ .      }
+-- line 210 ----------------------------------------
+-- line 212 ----------------------------------------
+ .      if (myargc < 1) {
+ .        fatal("NMAP_ARGS variable could not be parsed");
+ .      }
+ .      ret = nmap_main(myargc, myargv);
+ .      arg_parse_free(myargv);
+ .      return ret;
+ .    }
+ .  
+ 2    if (argc == 3 && strcmp("--resume", argv[1]) == 0) {
+ .      /* OK, they want to resume an aborted scan given the log file specified.
+ .         Lets gather our state from the log file */
+ .      if (gather_logfile_resumption_state(argv[2], &myargc, &myargv) == -1) {
+ .        fatal("Cannot resume from (supposed) log file %s", argv[2]);
+ .      }
+ .      return nmap_main(myargc, myargv);
+ .    }
+ .  
+ 3    return nmap_main(argc, argv);
+80,661  => /home/yzyayzyb/bitbucket/2015_fall_ecpe170/lab05/part5/nmap-6.47/nmap.cc:nmap_main(int, char**) (1x)
+ 2  }
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: output.cc
+--------------------------------------------------------------------------------
+Ir 
+
+-- line 2679 ----------------------------------------
+ .  
+ .  void nmap_nsock_stderr_logger(nsock_pool nsp, const struct nsock_log_rec *rec) {
+ .    int elapsed_time;
+ .  
+ .    elapsed_time = TIMEVAL_MSEC_SUBTRACT(rec->time, *(o.getStartTime()));
+ .  
+ .    log_write(LOG_STDERR, "NSOCK %s [%.4fs] %s(): %s\n", nslog2str(rec->level),
+ .              elapsed_time/1000.0, rec->func, rec->msg);
+ 2  }
+ .  
+
+--------------------------------------------------------------------------------
+The following files chosen for auto-annotation could not be found:
+--------------------------------------------------------------------------------
+  /build/buildd/eglibc-2.19/csu/../sysdeps/unix/sysv/linux/x86_64/init-first.c
+  /build/buildd/eglibc-2.19/setjmp/../sysdeps/x86_64/bsd-_setjmp.S
+  /build/buildd/eglibc-2.19/dlfcn/dlerror.c
+  /build/buildd/eglibc-2.19/elf/dl-init.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/x86_64/brk.c
+  /build/buildd/eglibc-2.19/libio/../libio/libioP.h
+  /build/buildd/eglibc-2.19/libio/iofread_u.c
+  /build/buildd/eglibc-2.19/libio/fileops.c
+  /build/buildd/eglibc-2.19/stdlib/cxa_thread_atexit_impl.c
+  /build/buildd/eglibc-2.19/string/../string/memcmp.c
+  /build/buildd/eglibc-2.19/csu/../csu/init-first.c
+  /build/buildd/eglibc-2.19/malloc/arena.c
+  /build/buildd/eglibc-2.19/misc/init-misc.c
+  /build/buildd/eglibc-2.19/elf/dl-reloc.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/memset.S
+  /build/buildd/eglibc-2.19/io/../sysdeps/unix/syscall-template.S
+  /build/buildd/eglibc-2.19/elf/../elf/dl-sysdep.c
+  /build/buildd/eglibc-2.19/elf/dl-debug.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../memcpy.S
+  /build/buildd/eglibc-2.19/elf/dl-profstub.c
+  /build/buildd/eglibc-2.19/string/../string/strstr.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/memmove.c
+  /build/buildd/eglibc-2.19/locale/newlocale.c
+  /build/buildd/eglibc-2.19/malloc/hooks.c
+  /build/buildd/eglibc-2.19/elf/dl-misc.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strchr.S
+  /build/buildd/eglibc-2.19/stdlib/exit.c
+  /build/buildd/eglibc-2.19/elf/dl-tls.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/memcpy.S
+  /build/buildd/eglibc-2.19/debug/printf_chk.c
+  /build/buildd/eglibc-2.19/wcsmbs/wctob.c
+  /build/buildd/eglibc-2.19/io/../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+  /build/buildd/eglibc-2.19/elf/dl-addr.c
+  /build/buildd/eglibc-2.19/elf/dl-version.c
+  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/sysv/linux/_exit.c
+  /build/buildd/eglibc-2.19/elf/dl-cache.c
+  /build/buildd/eglibc-2.19/elf/rtld.c
+  /build/buildd/eglibc-2.19/string/../bits/stdlib-bsearch.h
+  /build/buildd/eglibc-2.19/posix/../nptl/sysdeps/unix/sysv/linux/getpid.c
+  /build/buildd/eglibc-2.19/elf/dl-lookup.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../rtld-strlen.S
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_floor.S
+  /build/buildd/eglibc-2.19/wcsmbs/btowc.c
+  /build/buildd/eglibc-2.19/libio/fileno.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_floorf.S
+  /build/buildd/eglibc-2.19/time/../libio/bits/stdio.h
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../memcmp.S
+  /build/buildd/eglibc-2.19/elf/setup-vdso.h
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_atan2.c
+  /build/buildd/eglibc-2.19/debug/../libio/libioP.h
+  /build/buildd/eglibc-2.19/time/../sysdeps/x86/bits/byteswap.h
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/strcmp.S
+  /build/buildd/eglibc-2.19/wctype/wctype_l.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_sin.c
+  /build/buildd/eglibc-2.19/locale/uselocale.c
+  /build/buildd/eglibc-2.19/dlfcn/dlfcn.c
+  /build/buildd/eglibc-2.19/elf/dl-minimal.c
+  /build/buildd/eglibc-2.19/libio/iofclose.c
+  /build/buildd/eglibc-2.19/nptl/../nptl/sysdeps/unix/sysv/linux/unregister-atfork.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-sysdep.c
+  /build/buildd/eglibc-2.19/stdlib/getenv.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_pow.c
+  /build/buildd/eglibc-2.19/stdlib/cxa_atexit.c
+  /build/buildd/eglibc-2.19/time/localtime.c
+  /build/buildd/eglibc-2.19/elf/do-rel.h
+  /build/buildd/eglibc-2.19/time/tzset.c
+  /build/buildd/eglibc-2.19/elf/dl-open.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_ceil.S
+  /build/buildd/eglibc-2.19/libio/ftello.c
+  /build/buildd/eglibc-2.19/elf/dl-hwcaps.c
+  /build/buildd/eglibc-2.19/elf/dl-environ.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-vdso.c
+  /build/buildd/eglibc-2.19/iconv/gconv_simple.c
+  /build/buildd/eglibc-2.19/setjmp/../sysdeps/x86_64/setjmp.S
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_exp.c
+  /build/buildd/eglibc-2.19/time/../sysdeps/generic/dl-hash.h
+  /build/buildd/eglibc-2.19/time/tzfile.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-irel.h
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/rtld-memset.S
+  /build/buildd/eglibc-2.19/libio/libioP.h
+  /build/buildd/eglibc-2.19/libio/iofflush.c
+  /build/buildd/eglibc-2.19/elf/../elf/dl-runtime.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strrchr.S
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_asin.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strlen.S
+  /build/buildd/eglibc-2.19/elf/dl-altinit.c
+  /build/buildd/eglibc-2.19/time/offtime.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../cacheinfo.c
+  /build/buildd/eglibc-2.19/csu/../sysdeps/x86_64/multiarch/init-arch.c
+  /build/buildd/eglibc-2.19/elf/get-dynamic-info.h
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/e_log.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/strchr.S
+  /build/buildd/eglibc-2.19/stdlib/cxa_finalize.c
+  /build/buildd/eglibc-2.19/time/../sysdeps/unix/sysv/linux/x86_64/time.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-machine.h
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strcpy.S
+  /build/buildd/eglibc-2.19/libio/ioseekoff.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_ceilf.S
+  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/sysv/linux/x86_64/brk.c
+  /build/buildd/eglibc-2.19/stdio-common/printf-parse.h
+  /build/buildd/eglibc-2.19/elf/dl-load.c
+  /build/buildd/eglibc-2.19/elf/dl-fini.c
+  /build/buildd/eglibc-2.19/ctype/ctype-info.c
+  /build/buildd/eglibc-2.19/csu/../sysdeps/generic/dl-hash.h
+  /build/buildd/eglibc-2.19/elf/../sysdeps/x86_64/dl-trampoline.S
+  /build/buildd/eglibc-2.19/malloc/morecore.c
+  /build/buildd/eglibc-2.19/csu/errno-loc.c
+  /build/buildd/eglibc-2.19/nptl/../nptl/sysdeps/unix/sysv/linux/register-atfork.c
+  /build/buildd/eglibc-2.19/posix/../sysdeps/unix/syscall-template.S
+  /build/buildd/eglibc-2.19/setjmp/sigjmp.c
+  /build/buildd/eglibc-2.19/libio/../sysdeps/unix/sysv/linux/sys/sysmacros.h
+  /build/buildd/eglibc-2.19/malloc/malloc.c
+  /build/buildd/eglibc-2.19/wcsmbs/./wcsmbsload.h
+  /build/buildd/eglibc-2.19/elf/dl-error.c
+  /build/buildd/eglibc-2.19/libio/fseek.c
+  /build/buildd/eglibc-2.19/libio/iofopen.c
+  /build/buildd/eglibc-2.19/csu/libc-start.c
+  /build/buildd/eglibc-2.19/io/../sysdeps/unix/sysv/linux/wordsize-64/xstat.c
+  /build/buildd/eglibc-2.19/misc/sbrk.c
+  /build/buildd/eglibc-2.19/elf/../sysdeps/unix/sysv/linux/dl-osinfo.h
+  /build/buildd/eglibc-2.19/string/strdup.c
+  /build/buildd/eglibc-2.19/libio/genops.c
+  /build/buildd/eglibc-2.19/elf/../misc/sbrk.c
+  /build/buildd/eglibc-2.19/string/../sysdeps/x86_64/multiarch/../strcmp.S
+  /build/buildd/eglibc-2.19/libio/filedoalloc.c
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_rint.S
+  /build/buildd/eglibc-2.19/stdio-common/vfprintf.c
+  /build/buildd/eglibc-2.19/misc/../sysdeps/unix/syscall-template.S
+  /build/buildd/eglibc-2.19/math/../sysdeps/x86_64/fpu/multiarch/s_rintf.S
+  /build/buildd/eglibc-2.19/elf/dl-deps.c
+  /build/buildd/eglibc-2.19/elf/dl-object.c
+  /build/buildd/eglibc-2.19/time/../sysdeps/unix/sysv/linux/x86_64/gettimeofday.c
+
+--------------------------------------------------------------------------------
+Ir 
+--------------------------------------------------------------------------------
+ 2  percentage of events annotated
+
